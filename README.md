@@ -1,6 +1,6 @@
 # 九野营造 Jiuye Yingzao
 
-一个 Blender 插件，以宋《营造法式》的规则为骨架，参数化生成中国古代建筑，并可导出到 Unity 等游戏引擎。它为小说《九野春秋》的游戏地图而写，各类型可以独立使用。
+一个 Blender 插件，以宋《营造法式》的规则为骨架，参数化生成中国古代建筑，并可导出到 Unity 等游戏引擎。
 
 A Blender add-on that generates Chinese historical buildings parametrically from the rules of the Song-dynasty *Yingzao Fashi* (营造法式), with export for game engines such as Unity.
 
