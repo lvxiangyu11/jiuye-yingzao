@@ -39,6 +39,20 @@ def I(rng, r):
 
 
 # ------------------------------------------------------------------ spec
+def per_floor(over, floors):
+    """Storey heights from overrides: floor_hs (list, padded with its last value up to floors) or floor_h (uniform).
+    floors given explicitly wins over the list length; nothing is clamped."""
+    hs = over.get('floor_hs'); n = over.get('floors')
+    if hs:
+        hs = [float(h) for h in hs]
+        n = n or len(hs)
+        return (hs + [hs[-1]] * n)[:n]
+    if over.get('floor_h'):
+        n = n or floors
+        return [float(over['floor_h'])] * n
+    return None
+
+
 def resolve(type_key, style_key=None, seed=0, **over):
     t = TYPES[type_key]; rng = random.Random(seed * 7919 + zlib.crc32(type_key.encode()) % 10007)
     if style_key in (None, 'auto'):
@@ -56,6 +70,9 @@ def resolve(type_key, style_key=None, seed=0, **over):
     if style_key == 'loess':
         roof = 'pingding'
     floors = over.get('floors', I(rng, t['floors']))
+    floor_hs = per_floor(over, floors)                       # user storey heights (no limits), None = automatic
+    if floor_hs:
+        floors = len(floor_hs)
     # materials use their own random stream, so adding options never changes a seed's geometry
     mrng = random.Random(seed * 104723 + zlib.crc32((type_key + str(style_key)).encode()) % 99991)
     def pick(key_over, type_opts, style_opts, fallback):
@@ -78,7 +95,7 @@ def resolve(type_key, style_key=None, seed=0, **over):
         lv = 1
     cls = t['cls']; grade = R.grade_for(cls, bays); fen = R.fen(grade)
     spec = dict(type=type_key, label=t['label'], style=style_key, style_label=st['label'], seed=seed, cls=cls, official=off,
-                bays=bays, widths=widths, jia=jia, jia_len=jl, depth=jia * jl, col_h=over.get('col_h', U(rng, t['col_h'])),
+                bays=bays, widths=widths, jia=jia, jia_len=jl, depth=jia * jl, col_h=over.get('col_h', U(rng, t['col_h'])), floor_hs=floor_hs,
                 floors=floors, roof=roof, tile=tile, ridge=ridge, gable=gable, brackets=lv, bracket_kind=bkind,
                 bujian=b.get('bujian', 0), grade=grade, fen=fen,
                 porch=rng.random() < t.get('porch', 0), fujie=rng.random() < t.get('fujie', 0),
@@ -542,6 +559,9 @@ class Builder:
         if s['stilts']:
             self.stilts(s['stilts'])
         e_total = self.eave_total()
+        fhs = s.get('floor_hs')
+        if fhs:                                              # ground-storey height drives porch/副阶/signs
+            s['col_h'] = max(.3, fhs[0] - (1.6 if s['fujie'] else 0.0))
         fh = s['col_h']; z = zb
         fuj_run = s['jia_len'] * 1.2 if s['fujie'] else 0
         if s['fujie']:
@@ -550,7 +570,7 @@ class Builder:
             self.porch(zb, s['col_h'])
         shq = R.shengqi(s['bays']) if st['shengqi'] else 0.0
         for fl in range(s['floors']):
-            h = fh if fl == 0 else s['col_h'] * .88
+            h = fhs[fl] if fhs else (fh if fl == 0 else s['col_h'] * .88)
             top = fl == s['floors'] - 1
             self.columns(z, h, top, shq)
             if fl > 0:
@@ -721,6 +741,8 @@ class Builder:
                 objs.append(ob)
         s = self.s
         meta = {k: v for k, v in s.items() if isinstance(v, (int, float, str, bool))}
+        if s.get('floor_hs'):
+            meta['floor_hs'] = s['floor_hs']
         root['lyz_spec'] = json.dumps(meta, ensure_ascii=False); root['lyz_type'] = s['type']; root['lyz_style'] = s['style']
         root['lyz_tris'] = sum(p.tri_count() for p in self.p.values())
         if getattr(getattr(self, 'F', None), 'site', None):

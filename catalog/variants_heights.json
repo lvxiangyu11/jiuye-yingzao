@@ -1,0 +1,10 @@
+[
+ ["zhengfang","lanxi",1,{},"正房 自动"],
+ ["zhengfang","lanxi",1,{"floors":3,"floor_hs":[4.6,2.4,3.6]},"正房 3层 4.6/2.4/3.6 m"],
+ ["shop2","lanxi",3,{"floors":8,"floor_h":2.8},"下店上宅 8层 统一2.8 m"],
+ ["louge","song",2,{"floor_hs":[6.0,3.0,4.5,2.5]},"楼阁 逐层 6/3/4.5/2.5 m"],
+ ["modern_residential",null,1,{"floors":12,"floor_hs":[6.0,3.2,2.8]},"现代楼 12层 底层6 m"],
+ ["modern_residential",null,2,{"floor_hs":[4.35,5.0,2.5,2.5,5.0]},"现代楼 4层 逐层"],
+ ["pagoda_wood","song",1,{"storey_hs":[6.0,5.0,4.2,3.6,3.0,2.6,2.2]},"木塔 7层 逐层递减"],
+ ["diaolou","lanxi",1,{"storey_hs":[5.0,3.0,3.0,3.0,3.0,2.4,2.4]},"碉楼 7层 首层5 m"]
+]

@@ -54,13 +54,23 @@ def finial(part, z, scale=1.0, mat='bronze', rings=7):
     M.tube(part, [(0, 0, z + (.85 + rings * .22) * scale), (0, 0, z + (1.1 + rings * .22) * scale)], .1 * scale, mat, 10, radii=[.05 * scale, .16 * scale])
 
 
+def storeys(sp, default=3.0):
+    """Per-level heights: sp['storey_hs'] (padded with its last value) or sp['storey_h'] for every level."""
+    L = sp['levels']; hs = sp.get('storey_hs')
+    if hs:
+        hs = [float(h) for h in hs]
+        return (hs + [hs[-1]] * L)[:L]
+    return [float(sp.get('storey_h', default))] * L
+
+
 # ------------------------------------------------------------------ pagodas
 def pagoda_wood(p, sp, st, rng):
     """楼阁式木塔: polygon storeys with 平坐 balconies and an eave per storey (应县木塔 type, simplified)."""
-    n = sp['sides']; L = sp['levels']; r = sp['radius']; h = sp['storey_h']; lod = sp['lod']; taper = sp['taper']
+    n = sp['sides']; L = sp['levels']; r = sp['radius']; hs = storeys(sp); lod = sp['lod']; taper = sp['taper']
     drum(p['Platform'], r + 1.6, r + 1.4, 0, .5, n, 'stone'); drum(p['Platform'], r + 1.4, r + 1.25, .5, 1.1, n, 'stone_light')
     z = 1.1
     for lv in range(L):
+        h = hs[lv]
         rr = r * (1 - taper * lv / max(1, L - 1)); ap = rr * math.cos(math.pi / n)
         drum(p['Walls'], rr, rr * .99, z, z + h, n, st['wall'] if st['wall'] not in ('earth_rammed', 'adobe') else 'plaster_white')
         for k in range(n):                                   # columns at corners, door on alternate faces
@@ -86,14 +96,16 @@ def pagoda_wood(p, sp, st, rng):
 def pagoda_dense(p, sp, st, rng):
     """密檐式砖塔: tall 塔身 on a 须弥座, then dense 叠涩 eaves with short gaps (嵩岳寺塔 type: 檐数 != 楼层)."""
     n = sp['sides']; L = sp['levels']; r = sp['radius']; h = sp['storey_h']; taper = sp['taper']
+    gaps = sp['storey_hs'] and storeys(sp) or [h * .32] * L        # eave spacing: user list = metres between eaves
     drum(p['Platform'], r * 1.35, r * 1.3, 0, .8, n, 'stone'); drum(p['Platform'], r * 1.15, r * 1.12, .8, 1.6, n, 'brick_grey')
     body = h * 1.8; z = 1.6
     drum(p['Walls'], r, r * .98, z, z + body, n, 'brick_grey')
     for k in range(0, n, max(1, n // 4)):
         a = math.tau * (k + 1) / n; ap = r * math.cos(math.pi / n)
         M.box(p['Openings'], (ap * math.cos(a), ap * math.sin(a), z + body * .35), (.9, .2, 1.8), 'wood_dark', a + math.pi / 2)
-    z += body; gap = h * .32
+    z += body
     for lv in range(L):
+        gap = gaps[lv]
         t = lv / max(1, L - 1); rr = r * (1 - taper * (t ** 1.4))           # 卷杀 profile
         for j in range(4):                                                     # 叠涩: corbelled brick courses
             drum(p['Roof'], rr + j * .09, rr + (j + 1) * .09, z + j * .07, z + (j + 1) * .07, n, 'brick_grey')
@@ -106,10 +118,11 @@ def pagoda_dense(p, sp, st, rng):
 
 def pagoda_brick(p, sp, st, rng):
     """楼阁式砖塔: brick storeys with brick-imitation eaves and 平坐 bands, square or octagonal."""
-    n = sp['sides']; L = sp['levels']; r = sp['radius']; h = sp['storey_h']; taper = sp['taper']
+    n = sp['sides']; L = sp['levels']; r = sp['radius']; hs = storeys(sp); taper = sp['taper']
     drum(p['Platform'], r * 1.3, r * 1.25, 0, 1.0, n, 'stone')
     z = 1.0
     for lv in range(L):
+        h = hs[lv]
         rr = r * (1 - taper * lv / max(1, L - 1))
         drum(p['Walls'], rr, rr * .99, z, z + h, n, 'brick_grey' if st['wall'] != 'brick_red' else 'brick_red')
         for k in range(0, n, 2):
@@ -476,13 +489,13 @@ def yaodong(p, sp, st, rng):
 
 def diaolou(p, sp, st, rng):
     """碉楼/望楼: tall square tower, small windows, top gallery and hip or flat roof."""
-    a = sp['radius']; L = sp['levels']; h = sp['storey_h']; Htot = L * h
+    a = sp['radius']; L = sp['levels']; hs = storeys(sp); Htot = sum(hs); Z = [sum(hs[:k]) for k in range(L + 1)]
     M.box_minmax(p['Platform'], (-a - .4, -a - .4, 0), (a + .4, a + .4, .5), 'stone')
     M.box_minmax(p['Walls'], (-a, -a, .5), (a, a, .5 + Htot), sp.get('wall', 'brick_grey'))
     for lv in range(L):
         for ang in (0, math.pi / 2, math.pi, -math.pi / 2):
             st0 = p['Openings'].mark(); P.window(p['Openings'], .5, .7, _om(st), 'small', sp['lod'])
-            p['Openings'].transform(st0, M.place(math.sin(ang) * a * 0 + 0, 0, .5 + lv * h + h * .5, 0) @ M.Matrix.Translation((0, 0, 0)))
+            p['Openings'].transform(st0, M.place(0, 0, .5 + Z[lv] + hs[lv] * .5, 0))
             p['Openings'].transform(st0, M.Matrix.Rotation(ang, 4, 'Z') @ M.Matrix.Translation((0, -a - .02, 0)))
     z = .5 + Htot
     M.box_minmax(p['Beams'], (-a - .7, -a - .7, z), (a + .7, a + .7, z + .25), 'wood_dark')
@@ -497,8 +510,8 @@ def diaolou(p, sp, st, rng):
 
 def tulou(p, sp, st, rng):
     """土楼 (圆楼/方楼): thick rammed-earth outer ring, inner timber galleries, ring roof, single gate."""
-    R0 = sp['radius']; L = sp['levels']; h = 2.9; t = 1.4; ring_d = 6.0; round_ = sp.get('round', True); n = 48 if round_ else 4
-    H = L * h
+    R0 = sp['radius']; L = sp['levels']; hs = storeys(sp, 2.9); t = 1.4; ring_d = 6.0; round_ = sp.get('round', True); n = 48 if round_ else 4
+    Z = [sum(hs[:k]) for k in range(L + 1)]; H = Z[L]
     def ring(r_out, r_in, z0, z1, mat, nn=n):
         rot = 0 if round_ else 0.0
         for k in range(nn):
@@ -511,15 +524,14 @@ def tulou(p, sp, st, rng):
     ring(rr, rr - t, 0, H, 'earth_rammed')
     ring(rr + .05, rr - t - .05, 0, 1.4, 'stone')
     for lv in range(1, L):                                # inner galleries
-        ring(rr - t, rr - ring_d, lv * h - .15, lv * h, 'wood_dark')
+        ring(rr - t, rr - ring_d, Z[lv] - .15, Z[lv], 'wood_dark')
         for k in range(0, n, 2 if round_ else 1):
             a = math.tau * (k + .5) / n; r = rr - ring_d + .2
-            if lv == L - 1 or True:
-                M.column(p['Columns'], r * math.cos(a), r * math.sin(a), (lv - 1) * h, lv * h + h, .1, 'wood_dark', 6, 0, 0, (0, 0), False)
+            M.column(p['Columns'], r * math.cos(a), r * math.sin(a), Z[lv - 1], Z[lv + 1], .1, 'wood_dark', 6, 0, 0, (0, 0), False)
     if round_:
         for k in range(n):
             if k % 3 == 0:
-                a = math.tau * (k + 1) / n; z = (L - 1) * h + 1.2
+                a = math.tau * (k + 1) / n; z = Z[L - 1] + 1.2
                 M.box(p['Openings'], ((rr + .02) * math.cos(a), (rr + .02) * math.sin(a), z), (.5, .1, .7), 'wood_dark', a + math.pi / 2)
     # ring roof: outer slope over the earth wall, inner slope over the gallery
     for k in range(n):
@@ -610,6 +622,9 @@ def generate(key, style_key=None, seed=0, collection=None, **over):
         else:
             sp[k] = rng.uniform(*r)
     sp.update({k: v for k, v in over.items() if k not in sp})
+    if sp.get('storey_hs') and 'levels' in sp and 'levels' not in over:
+        sp['levels'] = len(sp['storey_hs'])
+    sp.setdefault('storey_hs', None)
     col = collection or bpy.context.scene.collection
     root = bpy.data.objects.new(f'{label}_{style_key}_{seed}', None); col.objects.link(root)
     parts = {k: M.Part(k) for k in ('Platform', 'Columns', 'Beams', 'Walls', 'Openings', 'Brackets', 'Roof', 'Roof_timber', 'Railings', 'Props', 'Finial')}
@@ -618,6 +633,6 @@ def generate(key, style_key=None, seed=0, collection=None, **over):
     for p in parts.values():
         p.finish(root, col, mats)
     import json
-    root['lyz_spec'] = json.dumps({k: v for k, v in sp.items() if isinstance(v, (int, float, str, bool))}, ensure_ascii=False)
+    root['lyz_spec'] = json.dumps({k: v for k, v in sp.items() if isinstance(v, (int, float, str, bool)) or k == 'storey_hs'}, ensure_ascii=False)
     root['lyz_type'] = key; root['lyz_style'] = style_key; root['lyz_tris'] = sum(p.tri_count() for p in parts.values())
     return root

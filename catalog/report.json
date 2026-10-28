@@ -77,10 +77,10 @@
    "W": 10.02988365558954,
    "D": 5.035261049507132
   },
-  "gen_s": 0.3,
+  "gen_s": 0.31,
   "thumb": "thumbs\\zhengfang__lanxi__1.png",
   "ok": true,
-  "total_s": 1.14
+  "total_s": 1.28
  },
  {
   "key": "zhengfang",
@@ -163,7 +163,7 @@
   "gen_s": 0.22,
   "thumb": "thumbs\\zhengfang__north_folk__2.png",
   "ok": true,
-  "total_s": 0.32
+  "total_s": 0.34
  },
  {
   "key": "xiangfang",
@@ -243,10 +243,10 @@
    "W": 6.115463448260924,
    "D": 5.196236471944784
   },
-  "gen_s": 0.16,
+  "gen_s": 0.18,
   "thumb": "thumbs\\xiangfang__lanxi__1.png",
   "ok": true,
-  "total_s": 0.28
+  "total_s": 0.31
  },
  {
   "key": "xiangfang",
@@ -326,10 +326,10 @@
    "W": 6.002009484149527,
    "D": 4.834954303031381
   },
-  "gen_s": 0.14,
+  "gen_s": 0.15,
   "thumb": "thumbs\\xiangfang__north_folk__2.png",
   "ok": true,
-  "total_s": 0.26
+  "total_s": 0.27
  },
  {
   "key": "daozuo",
@@ -409,7 +409,7 @@
    "W": 8.084038106964146,
    "D": 5.085902945298424
   },
-  "gen_s": 0.21,
+  "gen_s": 0.2,
   "thumb": "thumbs\\daozuo__lanxi__1.png",
   "ok": true,
   "total_s": 0.31
@@ -492,10 +492,10 @@
    "W": 12.74728493264152,
    "D": 2.517149095069102
   },
-  "gen_s": 0.25,
+  "gen_s": 0.27,
   "thumb": "thumbs\\daozuo__north_folk__2.png",
   "ok": true,
-  "total_s": 0.37
+  "total_s": 0.42
  },
  {
   "key": "maowu",
@@ -578,7 +578,7 @@
   "gen_s": 0.05,
   "thumb": "thumbs\\maowu__north_folk__1.png",
   "ok": true,
-  "total_s": 0.16
+  "total_s": 0.18
  },
  {
   "key": "maowu",
@@ -658,10 +658,10 @@
    "W": 7.920537114292408,
    "D": 2.4238115444194577
   },
-  "gen_s": 0.05,
+  "gen_s": 0.06,
   "thumb": "thumbs\\maowu__lanxi__2.png",
   "ok": true,
-  "total_s": 0.17
+  "total_s": 0.19
  },
  {
   "key": "pingfang",
@@ -741,10 +741,10 @@
    "W": 6.3832093949673805,
    "D": 4.90547786854556
   },
-  "gen_s": 0.03,
+  "gen_s": 0.04,
   "thumb": "thumbs\\pingfang__loess__1.png",
   "ok": true,
-  "total_s": 0.15
+  "total_s": 0.17
  },
  {
   "key": "shiwu",
@@ -827,7 +827,7 @@
   "gen_s": 0.04,
   "thumb": "thumbs\\shiwu__north_folk__1.png",
   "ok": true,
-  "total_s": 0.15
+  "total_s": 0.17
  },
  {
   "key": "shiwu",
@@ -910,7 +910,7 @@
   "gen_s": 0.05,
   "thumb": "thumbs\\shiwu__lanxi__2.png",
   "ok": true,
-  "total_s": 0.17
+  "total_s": 0.19
  },
  {
   "key": "loufang",
@@ -990,10 +990,10 @@
    "W": 9.599412586215479,
    "D": 4.664453850901325
   },
-  "gen_s": 0.27,
+  "gen_s": 0.28,
   "thumb": "thumbs\\loufang__jiangnan__1.png",
   "ok": true,
-  "total_s": 0.39
+  "total_s": 0.41
  },
  {
   "key": "loufang",
@@ -1073,10 +1073,10 @@
    "W": 8.53975923996073,
    "D": 5.0131801640410725
   },
-  "gen_s": 0.21,
+  "gen_s": 0.22,
   "thumb": "thumbs\\loufang__hui__2.png",
   "ok": true,
-  "total_s": 0.34
+  "total_s": 0.36
  },
  {
   "key": "diaojiaolou",
@@ -1156,10 +1156,10 @@
    "W": 12.755985600589938,
    "D": 5.1546476163898305
   },
-  "gen_s": 0.12,
+  "gen_s": 0.13,
   "thumb": "thumbs\\diaojiaolou__ganlan__1.png",
   "ok": true,
-  "total_s": 0.24
+  "total_s": 0.26
  },
  {
   "key": "shop",
@@ -1239,10 +1239,10 @@
    "W": 7.2403464732306055,
    "D": 5.056449342266884
   },
-  "gen_s": 0.17,
+  "gen_s": 0.18,
   "thumb": "thumbs\\shop__lanxi__1.png",
   "ok": true,
-  "total_s": 0.29
+  "total_s": 0.31
  },
  {
   "key": "shop",
@@ -1322,10 +1322,10 @@
    "W": 9.618624135105296,
    "D": 5.077034007170226
   },
-  "gen_s": 0.21,
+  "gen_s": 0.22,
   "thumb": "thumbs\\shop__north_folk__2.png",
   "ok": true,
-  "total_s": 0.33
+  "total_s": 0.34
  },
  {
   "key": "shop2",
@@ -1408,7 +1408,7 @@
   "gen_s": 0.39,
   "thumb": "thumbs\\shop2__lanxi__1.png",
   "ok": true,
-  "total_s": 0.55
+  "total_s": 0.51
  },
  {
   "key": "shop2",
@@ -1488,10 +1488,10 @@
    "W": 9.276106639865109,
    "D": 7.012115965472012
   },
-  "gen_s": 0.25,
+  "gen_s": 0.26,
   "thumb": "thumbs\\shop2__jiangnan__2.png",
   "ok": true,
-  "total_s": 0.38
+  "total_s": 0.39
  },
  {
   "key": "inn",
@@ -1571,10 +1571,10 @@
    "W": 9.92895850854618,
    "D": 7.8347823341112175
   },
-  "gen_s": 0.61,
+  "gen_s": 0.62,
   "thumb": "thumbs\\inn__lanxi__1.png",
   "ok": true,
-  "total_s": 0.76
+  "total_s": 0.79
  },
  {
   "key": "inn",
@@ -1654,7 +1654,7 @@
    "W": 14.21528690164314,
    "D": 8.258879354720175
   },
-  "gen_s": 0.66,
+  "gen_s": 0.72,
   "thumb": "thumbs\\inn__song__2.png",
   "ok": true,
   "total_s": 0.84
@@ -1741,7 +1741,7 @@
   "gen_s": 0.19,
   "thumb": "thumbs\\chapeng__lanxi__1.png",
   "ok": true,
-  "total_s": 0.35
+  "total_s": 0.37
  },
  {
   "key": "chapeng",
@@ -1822,10 +1822,10 @@
    "W": 5.783097472362927,
    "D": 2.4346640919445663
   },
-  "gen_s": 0.14,
+  "gen_s": 0.15,
   "thumb": "thumbs\\chapeng__north_folk__2.png",
   "ok": true,
-  "total_s": 0.23
+  "total_s": 0.24
  },
  {
   "key": "huopeng",
@@ -1909,7 +1909,7 @@
   "gen_s": 0.29,
   "thumb": "thumbs\\huopeng__lanxi__1.png",
   "ok": true,
-  "total_s": 0.38
+  "total_s": 0.4
  },
  {
   "key": "huopeng",
@@ -1990,10 +1990,10 @@
    "W": 10.193238094078549,
    "D": 6.2581076201939645
   },
-  "gen_s": 0.22,
+  "gen_s": 0.23,
   "thumb": "thumbs\\huopeng__north_folk__2.png",
   "ok": true,
-  "total_s": 0.31
+  "total_s": 0.33
  },
  {
   "key": "cangfang",
@@ -2073,10 +2073,10 @@
    "W": 13.615357477500588,
    "D": 5.986201310126535
   },
-  "gen_s": 0.34,
+  "gen_s": 0.36,
   "thumb": "thumbs\\cangfang__lanxi__1.png",
   "ok": true,
-  "total_s": 0.44
+  "total_s": 0.46
  },
  {
   "key": "cangfang",
@@ -2156,10 +2156,10 @@
    "W": 17.376692034716623,
    "D": 7.888587887005205
   },
-  "gen_s": 0.35,
+  "gen_s": 0.4,
   "thumb": "thumbs\\cangfang__north_folk__2.png",
   "ok": true,
-  "total_s": 0.48
+  "total_s": 0.54
  },
  {
   "key": "zuofang",
@@ -2239,10 +2239,10 @@
    "W": 9.094010574267688,
    "D": 5.354191582783795
   },
-  "gen_s": 0.25,
+  "gen_s": 0.27,
   "thumb": "thumbs\\zuofang__lanxi__1.png",
   "ok": true,
-  "total_s": 0.4
+  "total_s": 0.38
  },
  {
   "key": "zuofang",
@@ -2322,10 +2322,10 @@
    "W": 9.76236702610737,
    "D": 5.592020318033834
   },
-  "gen_s": 0.21,
+  "gen_s": 0.23,
   "thumb": "thumbs\\zuofang__north_folk__2.png",
   "ok": true,
-  "total_s": 0.36
+  "total_s": 0.34
  },
  {
   "key": "tingtang",
@@ -2406,10 +2406,10 @@
    "W": 15.564868408237441,
    "D": 8.934588020152
   },
-  "gen_s": 0.49,
+  "gen_s": 0.55,
   "thumb": "thumbs\\tingtang__lanxi__1.png",
   "ok": true,
-  "total_s": 0.6
+  "total_s": 0.69
  },
  {
   "key": "tingtang",
@@ -2490,10 +2490,10 @@
    "W": 13.72842705222396,
    "D": 8.813279074682635
   },
-  "gen_s": 0.42,
+  "gen_s": 0.45,
   "thumb": "thumbs\\tingtang__song__2.png",
   "ok": true,
-  "total_s": 0.53
+  "total_s": 0.57
  },
  {
   "key": "dadian",
@@ -2573,10 +2573,10 @@
    "W": 22.06257368410875,
    "D": 14.612144093316124
   },
-  "gen_s": 1.2,
+  "gen_s": 1.31,
   "thumb": "thumbs\\dadian__song__1.png",
   "ok": true,
-  "total_s": 1.34
+  "total_s": 1.54
  },
  {
   "key": "dadian",
@@ -2657,10 +2657,10 @@
    "W": 19.917211947151962,
    "D": 14.218817514937278
   },
-  "gen_s": 1.14,
+  "gen_s": 1.23,
   "thumb": "thumbs\\dadian__tang__2.png",
   "ok": true,
-  "total_s": 1.33
+  "total_s": 1.38
  },
  {
   "key": "dian_fujie",
@@ -2740,10 +2740,10 @@
    "W": 21.765439593299302,
    "D": 14.364085174778602
   },
-  "gen_s": 1.3,
+  "gen_s": 1.35,
   "thumb": "thumbs\\dian_fujie__song__1.png",
   "ok": true,
-  "total_s": 1.45
+  "total_s": 1.52
  },
  {
   "key": "dian_fujie",
@@ -2824,10 +2824,10 @@
    "W": 13.090223339024776,
    "D": 10.208753926001807
   },
-  "gen_s": 1.37,
+  "gen_s": 1.4,
   "thumb": "thumbs\\dian_fujie__daoguan__2.png",
   "ok": true,
-  "total_s": 1.58
+  "total_s": 1.56
  },
  {
   "key": "yamen",
@@ -2908,10 +2908,10 @@
    "W": 18.1237233101422,
    "D": 12.4996632854936
   },
-  "gen_s": 0.51,
+  "gen_s": 0.56,
   "thumb": "thumbs\\yamen__lanxi__1.png",
   "ok": true,
-  "total_s": 0.8
+  "total_s": 0.69
  },
  {
   "key": "yamen",
@@ -2991,10 +2991,10 @@
    "W": 19.013361104486872,
    "D": 12.18701110411526
   },
-  "gen_s": 0.51,
+  "gen_s": 0.54,
   "thumb": "thumbs\\yamen__song__2.png",
   "ok": true,
-  "total_s": 0.61
+  "total_s": 0.71
  },
  {
   "key": "miaodian",
@@ -3075,10 +3075,10 @@
    "W": 15.963204975101917,
    "D": 8.99138178102338
   },
-  "gen_s": 0.66,
+  "gen_s": 0.68,
   "thumb": "thumbs\\miaodian__lanxi__1.png",
   "ok": true,
-  "total_s": 0.76
+  "total_s": 0.81
  },
  {
   "key": "miaodian",
@@ -3158,10 +3158,10 @@
    "W": 16.56131357418962,
    "D": 9.255419119162575
   },
-  "gen_s": 0.7,
+  "gen_s": 0.72,
   "thumb": "thumbs\\miaodian__song__2.png",
   "ok": true,
-  "total_s": 0.82
+  "total_s": 0.91
  },
  {
   "key": "tudimiao",
@@ -3241,7 +3241,7 @@
    "W": 1.8655853812105612,
    "D": 1.9158231554430913
   },
-  "gen_s": 0.08,
+  "gen_s": 0.09,
   "thumb": "thumbs\\tudimiao__lanxi__1.png",
   "ok": true,
   "total_s": 0.19
@@ -3408,10 +3408,10 @@
    "W": 14.710027166497724,
    "D": 9.22287978932119
   },
-  "gen_s": 1.29,
+  "gen_s": 1.36,
   "thumb": "thumbs\\louge__song__1.png",
   "ok": true,
-  "total_s": 1.49
+  "total_s": 1.52
  },
  {
   "key": "louge",
@@ -3492,10 +3492,10 @@
    "W": 19.379388143545217,
    "D": 8.990472962248273
   },
-  "gen_s": 1.59,
+  "gen_s": 1.7,
   "thumb": "thumbs\\louge__tang__2.png",
   "ok": true,
-  "total_s": 1.82
+  "total_s": 1.94
  },
  {
   "key": "menwu",
@@ -3575,7 +3575,7 @@
    "W": 7.926523696183709,
    "D": 5.0078756851944615
   },
-  "gen_s": 0.26,
+  "gen_s": 0.25,
   "thumb": "thumbs\\menwu__lanxi__1.png",
   "ok": true,
   "total_s": 0.36
@@ -3661,7 +3661,7 @@
   "gen_s": 0.17,
   "thumb": "thumbs\\menwu__song__2.png",
   "ok": true,
-  "total_s": 0.27
+  "total_s": 0.28
  },
  {
   "key": "chuihuamen",
@@ -3741,10 +3741,10 @@
    "W": 3.108207756462563,
    "D": 2.2412892103934756
   },
-  "gen_s": 0.11,
+  "gen_s": 0.12,
   "thumb": "thumbs\\chuihuamen__lanxi__1.png",
   "ok": true,
-  "total_s": 0.22
+  "total_s": 0.23
  },
  {
   "key": "chuihuamen",
@@ -3824,10 +3824,10 @@
    "W": 3.1077749960229193,
    "D": 2.0018755564688786
   },
-  "gen_s": 0.11,
+  "gen_s": 0.12,
   "thumb": "thumbs\\chuihuamen__ming__2.png",
   "ok": true,
-  "total_s": 0.22
+  "total_s": 0.24
  },
  {
   "key": "ting4",
@@ -3907,10 +3907,10 @@
    "W": 3.2990831842013812,
    "D": 3.9664422434438666
   },
-  "gen_s": 0.27,
+  "gen_s": 0.31,
   "thumb": "thumbs\\ting4__song__1.png",
   "ok": true,
-  "total_s": 0.37
+  "total_s": 0.42
  },
  {
   "key": "ting4",
@@ -3990,10 +3990,10 @@
    "W": 3.7422207286987588,
    "D": 3.8671241807946735
   },
-  "gen_s": 0.23,
+  "gen_s": 0.26,
   "thumb": "thumbs\\ting4__jiangnan__2.png",
   "ok": true,
-  "total_s": 0.33
+  "total_s": 0.36
  },
  {
   "key": "ting6",
@@ -4073,10 +4073,10 @@
    "W": 3.2031958690066684,
    "D": 3.6738575551912986
   },
-  "gen_s": 0.18,
+  "gen_s": 0.19,
   "thumb": "thumbs\\ting6__jiangnan__1.png",
   "ok": true,
-  "total_s": 0.35
+  "total_s": 0.31
  },
  {
   "key": "ting6",
@@ -4159,7 +4159,7 @@
   "gen_s": 0.22,
   "thumb": "thumbs\\ting6__song__2.png",
   "ok": true,
-  "total_s": 0.37
+  "total_s": 0.32
  },
  {
   "key": "ting8",
@@ -4239,10 +4239,10 @@
    "W": 3.5908004554914856,
    "D": 3.5373961412869503
   },
-  "gen_s": 0.22,
+  "gen_s": 0.23,
   "thumb": "thumbs\\ting8__song__1.png",
   "ok": true,
-  "total_s": 0.31
+  "total_s": 0.33
  },
  {
   "key": "ting8",
@@ -4322,10 +4322,10 @@
    "W": 3.1646318568648355,
    "D": 3.4589420848998578
   },
-  "gen_s": 0.24,
+  "gen_s": 0.22,
   "thumb": "thumbs\\ting8__daoguan__2.png",
   "ok": true,
-  "total_s": 0.33
+  "total_s": 0.32
  },
  {
   "key": "tingyuan",
@@ -4405,10 +4405,10 @@
    "W": 3.207892176863152,
    "D": 3.5621490958444135
   },
-  "gen_s": 0.24,
+  "gen_s": 0.23,
   "thumb": "thumbs\\tingyuan__jiangnan__1.png",
   "ok": true,
-  "total_s": 0.34
+  "total_s": 0.35
  },
  {
   "key": "tingyuan",
@@ -4488,10 +4488,10 @@
    "W": 3.110384733847508,
    "D": 3.0697409499224246
   },
-  "gen_s": 0.23,
+  "gen_s": 0.24,
   "thumb": "thumbs\\tingyuan__song__2.png",
   "ok": true,
-  "total_s": 0.33
+  "total_s": 0.35
  },
  {
   "key": "ting_double",
@@ -4571,10 +4571,10 @@
    "W": 4.2656160173073,
    "D": 4.049737717223311
   },
-  "gen_s": 0.54,
+  "gen_s": 0.57,
   "thumb": "thumbs\\ting_double__song__1.png",
   "ok": true,
-  "total_s": 0.64
+  "total_s": 0.69
  },
  {
   "key": "ting_double",
@@ -4654,10 +4654,10 @@
    "W": 4.225930087741512,
    "D": 3.8709344213949413
   },
-  "gen_s": 0.53,
+  "gen_s": 0.55,
   "thumb": "thumbs\\ting_double__daoguan__2.png",
   "ok": true,
-  "total_s": 0.64
+  "total_s": 0.67
  },
  {
   "key": "lang",
@@ -4737,10 +4737,10 @@
    "W": 14.018218088023863,
    "D": 2.2914437002434265
   },
-  "gen_s": 0.34,
+  "gen_s": 0.35,
   "thumb": "thumbs\\lang__jiangnan__1.png",
   "ok": true,
-  "total_s": 0.45
+  "total_s": 0.46
  },
  {
   "key": "lang",
@@ -4823,7 +4823,7 @@
   "gen_s": 0.29,
   "thumb": "thumbs\\lang__song__2.png",
   "ok": true,
-  "total_s": 0.39
+  "total_s": 0.41
  },
  {
   "key": "xie",
@@ -4903,7 +4903,7 @@
    "W": 9.362071249937031,
    "D": 5.550448285042327
   },
-  "gen_s": 0.37,
+  "gen_s": 0.41,
   "thumb": "thumbs\\xie__jiangnan__1.png",
   "ok": true,
   "total_s": 0.53
@@ -4986,10 +4986,10 @@
    "W": 9.519161021577238,
    "D": 5.506348513980919
   },
-  "gen_s": 0.4,
+  "gen_s": 0.42,
   "thumb": "thumbs\\xie__song__2.png",
   "ok": true,
-  "total_s": 0.5
+  "total_s": 0.58
  },
  {
   "key": "xitai",
@@ -5069,10 +5069,10 @@
    "W": 4.514793231023432,
    "D": 5.251571192854432
   },
-  "gen_s": 0.31,
+  "gen_s": 0.34,
   "thumb": "thumbs\\xitai__lanxi__1.png",
   "ok": true,
-  "total_s": 0.41
+  "total_s": 0.46
  },
  {
   "key": "xitai",
@@ -5152,10 +5152,10 @@
    "W": 8.857290990090567,
    "D": 5.709419304879633
   },
-  "gen_s": 0.37,
+  "gen_s": 0.41,
   "thumb": "thumbs\\xitai__ming__2.png",
   "ok": true,
-  "total_s": 0.47
+  "total_s": 0.52
  },
  {
   "key": "jingting",
@@ -5235,10 +5235,10 @@
    "W": 2.6980837981850487,
    "D": 2.7613377929217364
   },
-  "gen_s": 0.21,
+  "gen_s": 0.23,
   "thumb": "thumbs\\jingting__lanxi__1.png",
   "ok": true,
-  "total_s": 0.3
+  "total_s": 0.34
  },
  {
   "key": "jingting",
@@ -5318,10 +5318,10 @@
    "W": 2.9478419850509643,
    "D": 2.5980489730648797
   },
-  "gen_s": 0.14,
+  "gen_s": 0.15,
   "thumb": "thumbs\\jingting__north_folk__2.png",
   "ok": true,
-  "total_s": 0.24
+  "total_s": 0.26
  },
  {
   "key": "beiting",
@@ -5401,10 +5401,10 @@
    "W": 3.579048347704502,
    "D": 3.288976734284395
   },
-  "gen_s": 0.27,
+  "gen_s": 0.29,
   "thumb": "thumbs\\beiting__song__1.png",
   "ok": true,
-  "total_s": 0.36
+  "total_s": 0.4
  },
  {
   "key": "beiting",
@@ -5484,10 +5484,10 @@
    "W": 3.6949845428873354,
    "D": 3.46412364651938
   },
-  "gen_s": 0.27,
+  "gen_s": 0.28,
   "thumb": "thumbs\\beiting__lanxi__2.png",
   "ok": true,
-  "total_s": 0.37
+  "total_s": 0.4
  },
  {
   "key": "zhonglou",
@@ -5567,10 +5567,10 @@
    "W": 9.325127804458683,
    "D": 5.5364243304100675
   },
-  "gen_s": 0.43,
+  "gen_s": 0.47,
   "thumb": "thumbs\\zhonglou__song__1.png",
   "ok": true,
-  "total_s": 0.54
+  "total_s": 0.63
  },
  {
   "key": "zhonglou",
@@ -5653,7 +5653,7 @@
   "gen_s": 0.42,
   "thumb": "thumbs\\zhonglou__lanxi__2.png",
   "ok": true,
-  "total_s": 0.52
+  "total_s": 0.6
  },
  {
   "key": "yizhan",
@@ -5733,10 +5733,10 @@
    "W": 11.072454491393364,
    "D": 5.897356176835526
   },
-  "gen_s": 0.34,
+  "gen_s": 0.37,
   "thumb": "thumbs\\yizhan__lanxi__1.png",
   "ok": true,
-  "total_s": 0.51
+  "total_s": 0.49
  },
  {
   "key": "yizhan",
@@ -5816,10 +5816,10 @@
    "W": 13.3118705753464,
    "D": 5.660898226067594
   },
-  "gen_s": 0.36,
+  "gen_s": 0.39,
   "thumb": "thumbs\\yizhan__song__2.png",
   "ok": true,
-  "total_s": 0.47
+  "total_s": 0.5
  },
  {
   "key": "zhangfang",
@@ -5899,10 +5899,10 @@
    "W": 3.628455933439647,
    "D": 4.618410606036638
   },
-  "gen_s": 0.14,
+  "gen_s": 0.15,
   "thumb": "thumbs\\zhangfang__lanxi__1.png",
   "ok": true,
-  "total_s": 0.24
+  "total_s": 0.26
  },
  {
   "key": "yingwu",
@@ -5982,10 +5982,10 @@
    "W": 22.17835020664625,
    "D": 5.312027147820131
   },
-  "gen_s": 0.51,
+  "gen_s": 0.53,
   "thumb": "thumbs\\yingwu__lanxi__1.png",
   "ok": true,
-  "total_s": 0.62
+  "total_s": 0.65
  },
  {
   "key": "yingwu",
@@ -6065,10 +6065,10 @@
    "W": 27.089863250543946,
    "D": 4.738653468999077
   },
-  "gen_s": 0.61,
+  "gen_s": 0.67,
   "thumb": "thumbs\\yingwu__song__2.png",
   "ok": true,
-  "total_s": 0.72
+  "total_s": 0.78
  },
  {
   "key": "pagoda_wood",
@@ -6092,12 +6092,13 @@
    "levels": 5,
    "radius": 3.7919139000040105,
    "storey_h": 4.2704789293894825,
-   "taper": 0.2655121491960267
+   "taper": 0.2655121491960267,
+   "storey_hs": null
   },
-  "gen_s": 1.82,
+  "gen_s": 1.98,
   "thumb": "thumbs\\pagoda_wood__song__1.png",
   "ok": true,
-  "total_s": 2.04
+  "total_s": 2.14
  },
  {
   "key": "pagoda_wood",
@@ -6121,12 +6122,13 @@
    "levels": 3,
    "radius": 5.0155825392282,
    "storey_h": 3.680938128554598,
-   "taper": 0.23437891517675918
+   "taper": 0.23437891517675918,
+   "storey_hs": null
   },
-  "gen_s": 1.25,
+  "gen_s": 1.36,
   "thumb": "thumbs\\pagoda_wood__liaojin__2.png",
   "ok": true,
-  "total_s": 1.56
+  "total_s": 1.57
  },
  {
   "key": "pagoda_dense",
@@ -6150,12 +6152,13 @@
    "levels": 7,
    "radius": 2.702042363597643,
    "storey_h": 3.3675590232252217,
-   "taper": 0.40307903357483554
+   "taper": 0.40307903357483554,
+   "storey_hs": null
   },
   "gen_s": 0.02,
   "thumb": "thumbs\\pagoda_dense__tang__1.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.12
  },
  {
   "key": "pagoda_dense",
@@ -6179,12 +6182,13 @@
    "levels": 14,
    "radius": 3.957436631970567,
    "storey_h": 3.623367089413173,
-   "taper": 0.3573656633644047
+   "taper": 0.3573656633644047,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\pagoda_dense__song__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "pagoda_brick",
@@ -6208,12 +6212,13 @@
    "levels": 5,
    "radius": 2.6246761738454953,
    "storey_h": 3.018315631260918,
-   "taper": 0.27930476584947067
+   "taper": 0.27930476584947067,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\pagoda_brick__song__1.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.11
  },
  {
   "key": "pagoda_brick",
@@ -6237,12 +6242,13 @@
    "levels": 7,
    "radius": 3.5072301277645233,
    "storey_h": 3.1220686432109956,
-   "taper": 0.2730941649422161
+   "taper": 0.2730941649422161,
+   "storey_hs": null
   },
   "gen_s": 0.02,
   "thumb": "thumbs\\pagoda_brick__ming__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "pagoda_pavilion",
@@ -6263,12 +6269,13 @@
    "seed": 1,
    "lod": 1,
    "radius": 2.5711116120944437,
-   "storey_h": 3.3499680475058486
+   "storey_h": 3.3499680475058486,
+   "storey_hs": null
   },
-  "gen_s": 0.32,
+  "gen_s": 0.33,
   "thumb": "thumbs\\pagoda_pavilion__tang__1.png",
   "ok": true,
-  "total_s": 0.41
+  "total_s": 0.45
  },
  {
   "key": "pagoda_pavilion",
@@ -6289,12 +6296,13 @@
    "seed": 2,
    "lod": 1,
    "radius": 1.903273517147422,
-   "storey_h": 3.2051928132599463
+   "storey_h": 3.2051928132599463,
+   "storey_hs": null
   },
-  "gen_s": 0.28,
+  "gen_s": 0.32,
   "thumb": "thumbs\\pagoda_pavilion__song__2.png",
   "ok": true,
-  "total_s": 0.37
+  "total_s": 0.43
  },
  {
   "key": "pagoda_stupa",
@@ -6314,12 +6322,13 @@
    "style": "song",
    "seed": 1,
    "lod": 1,
-   "radius": 2.6043029775154114
+   "radius": 2.6043029775154114,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\pagoda_stupa__song__1.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.11
  },
  {
   "key": "pagoda_stupa",
@@ -6339,12 +6348,13 @@
    "style": "ming",
    "seed": 2,
    "lod": 1,
-   "radius": 2.364361109982581
+   "radius": 2.364361109982581,
+   "storey_hs": null
   },
-  "gen_s": 0.01,
+  "gen_s": 0.02,
   "thumb": "thumbs\\pagoda_stupa__ming__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "jingchuang",
@@ -6363,12 +6373,13 @@
   "spec": {
    "style": "song",
    "seed": 1,
-   "lod": 1
+   "lod": 1,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\jingchuang__song__1.png",
   "ok": true,
-  "total_s": 0.08
+  "total_s": 0.1
  },
  {
   "key": "jingchuang",
@@ -6387,12 +6398,13 @@
   "spec": {
    "style": "tang",
    "seed": 2,
-   "lod": 1
+   "lod": 1,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\jingchuang__tang__2.png",
   "ok": true,
-  "total_s": 0.08
+  "total_s": 0.1
  },
  {
   "key": "paifang",
@@ -6415,12 +6427,13 @@
    "openings": 1,
    "span": 3.1928184151530843,
    "height": 5.1484575318795995,
-   "material": "stone"
+   "material": "stone",
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\paifang__ming__1.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.1
  },
  {
   "key": "paifang",
@@ -6443,12 +6456,13 @@
    "openings": 5,
    "span": 2.907805509890369,
    "height": 4.587830787369278,
-   "material": "wood"
+   "material": "wood",
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\paifang__lanxi__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "pailou",
@@ -6473,12 +6487,13 @@
    "height": 5.441248117021907,
    "material": "glazed",
    "chongtian": false,
-   "lou": "basic"
+   "lou": "basic",
+   "storey_hs": null
   },
-  "gen_s": 0.69,
+  "gen_s": 0.74,
   "thumb": "thumbs\\pailou__ming__1.png",
   "ok": true,
-  "total_s": 0.81
+  "total_s": 0.88
  },
  {
   "key": "pailou",
@@ -6503,12 +6518,13 @@
    "height": 5.875057042090781,
    "material": "glazed",
    "chongtian": true,
-   "lou": "basic"
+   "lou": "basic",
+   "storey_hs": null
   },
-  "gen_s": 0.35,
+  "gen_s": 0.41,
   "thumb": "thumbs\\pailou__lanxi__2.png",
   "ok": true,
-  "total_s": 0.45
+  "total_s": 0.53
  },
  {
   "key": "wutoumen",
@@ -6529,12 +6545,13 @@
    "seed": 1,
    "lod": 1,
    "span": 3.571786054577901,
-   "height": 4.7377764698049365
+   "height": 4.7377764698049365,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\wutoumen__song__1.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "wutoumen",
@@ -6555,12 +6572,13 @@
    "seed": 2,
    "lod": 1,
    "span": 3.1313058479404354,
-   "height": 4.774965706653555
+   "height": 4.774965706653555,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\wutoumen__tang__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "lingxingmen",
@@ -6581,7 +6599,8 @@
    "seed": 1,
    "lod": 1,
    "span": 3.380513177231937,
-   "height": 4.2796939072594755
+   "height": 4.2796939072594755,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\lingxingmen__ming__1.png",
@@ -6607,12 +6626,13 @@
    "seed": 2,
    "lod": 1,
    "span": 2.967723659462886,
-   "height": 4.358006068970892
+   "height": 4.358006068970892,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\lingxingmen__song__2.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.1
  },
  {
   "key": "bridge_arch",
@@ -6634,7 +6654,8 @@
    "lod": 1,
    "arches": 1,
    "span": 7.591754100462346,
-   "width": 4.1004148158258635
+   "width": 4.1004148158258635,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\bridge_arch__lanxi__1.png",
@@ -6661,12 +6682,13 @@
    "lod": 1,
    "arches": 3,
    "span": 6.543533511044055,
-   "width": 4.358543399351842
+   "width": 4.358543399351842,
+   "storey_hs": null
   },
-  "gen_s": 0.01,
+  "gen_s": 0.02,
   "thumb": "thumbs\\bridge_arch__jiangnan__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "bridge_beam",
@@ -6688,7 +6710,8 @@
    "lod": 1,
    "arches": 4,
    "span": 3.8186156203077037,
-   "width": 2.990310634261452
+   "width": 2.990310634261452,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\bridge_beam__lanxi__1.png",
@@ -6715,7 +6738,8 @@
    "lod": 1,
    "arches": 5,
    "span": 3.6195723441086916,
-   "width": 2.511394875923159
+   "width": 2.511394875923159,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\bridge_beam__north_folk__2.png",
@@ -6742,12 +6766,13 @@
    "lod": 1,
    "arches": 3,
    "span": 4.491682842003247,
-   "width": 3.0948377070812243
+   "width": 3.0948377070812243,
+   "storey_hs": null
   },
   "gen_s": 0.04,
   "thumb": "thumbs\\bridge_lang__ganlan__1.png",
   "ok": true,
-  "total_s": 0.15
+  "total_s": 0.17
  },
  {
   "key": "bridge_lang",
@@ -6769,12 +6794,13 @@
    "lod": 1,
    "arches": 2,
    "span": 4.833488146676341,
-   "width": 3.130350385827541
+   "width": 3.130350385827541,
+   "storey_hs": null
   },
-  "gen_s": 0.22,
+  "gen_s": 0.26,
   "thumb": "thumbs\\bridge_lang__jiangnan__2.png",
   "ok": true,
-  "total_s": 0.32
+  "total_s": 0.36
  },
  {
   "key": "pier",
@@ -6795,7 +6821,8 @@
    "seed": 1,
    "lod": 1,
    "length": 25.771665888575658,
-   "width": 2.943945226127082
+   "width": 2.943945226127082,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\pier__lanxi__1.png",
@@ -6821,7 +6848,8 @@
    "seed": 1,
    "lod": 1,
    "length": 11.927381066944164,
-   "height": 2.709454867374398
+   "height": 2.709454867374398,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\yard_wall__lanxi__1.png",
@@ -6847,7 +6875,8 @@
    "seed": 2,
    "lod": 1,
    "length": 13.635881097901446,
-   "height": 2.707257175718967
+   "height": 2.707257175718967,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\yard_wall__north_folk__2.png",
@@ -6873,12 +6902,13 @@
    "seed": 1,
    "lod": 1,
    "length": 5.243455415379311,
-   "height": 3.5715255959404955
+   "height": 3.5715255959404955,
+   "storey_hs": null
   },
-  "gen_s": 0.15,
+  "gen_s": 0.16,
   "thumb": "thumbs\\zhaobi__lanxi__1.png",
   "ok": true,
-  "total_s": 0.24
+  "total_s": 0.26
  },
  {
   "key": "zhaobi",
@@ -6899,12 +6929,13 @@
    "seed": 2,
    "lod": 1,
    "length": 6.8710163229331425,
-   "height": 3.8858354970009
+   "height": 3.8858354970009,
+   "storey_hs": null
   },
-  "gen_s": 0.17,
+  "gen_s": 0.19,
   "thumb": "thumbs\\zhaobi__ming__2.png",
   "ok": true,
-  "total_s": 0.27
+  "total_s": 0.28
  },
  {
   "key": "city_wall",
@@ -6925,12 +6956,13 @@
    "seed": 1,
    "lod": 1,
    "length": 37.70442388563083,
-   "height": 8.190757041165915
+   "height": 8.190757041165915,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\city_wall__lanxi__1.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.1
  },
  {
   "key": "city_gate",
@@ -6951,12 +6983,13 @@
    "seed": 1,
    "lod": 1,
    "length": 36.16649316981349,
-   "height": 8.69185387268432
+   "height": 8.69185387268432,
+   "storey_hs": null
   },
-  "gen_s": 0.45,
+  "gen_s": 0.51,
   "thumb": "thumbs\\city_gate__lanxi__1.png",
   "ok": true,
-  "total_s": 0.56
+  "total_s": 0.62
  },
  {
   "key": "city_gate",
@@ -6977,12 +7010,13 @@
    "seed": 2,
    "lod": 1,
    "length": 37.097600643366604,
-   "height": 9.389424906601072
+   "height": 9.389424906601072,
+   "storey_hs": null
   },
-  "gen_s": 0.45,
+  "gen_s": 0.48,
   "thumb": "thumbs\\city_gate__song__2.png",
   "ok": true,
-  "total_s": 0.56
+  "total_s": 0.59
  },
  {
   "key": "yaodong",
@@ -7002,12 +7036,13 @@
    "style": "loess",
    "seed": 1,
    "lod": 1,
-   "caves": 4
+   "caves": 4,
+   "storey_hs": null
   },
   "gen_s": 0.02,
   "thumb": "thumbs\\yaodong__loess__1.png",
   "ok": true,
-  "total_s": 0.13
+  "total_s": 0.14
  },
  {
   "key": "diaolou",
@@ -7029,12 +7064,13 @@
    "lod": 1,
    "radius": 3.14586366582292,
    "levels": 4,
-   "storey_h": 3.3960664506647116
+   "storey_h": 3.3960664506647116,
+   "storey_hs": null
   },
-  "gen_s": 0.36,
+  "gen_s": 0.38,
   "thumb": "thumbs\\diaolou__lanxi__1.png",
   "ok": true,
-  "total_s": 0.46
+  "total_s": 0.49
  },
  {
   "key": "diaolou",
@@ -7056,12 +7092,13 @@
    "lod": 1,
    "radius": 2.8807407942821737,
    "levels": 3,
-   "storey_h": 3.0892553292376457
+   "storey_h": 3.0892553292376457,
+   "storey_hs": null
   },
-  "gen_s": 0.32,
+  "gen_s": 0.35,
   "thumb": "thumbs\\diaolou__lingnan__2.png",
   "ok": true,
-  "total_s": 0.48
+  "total_s": 0.46
  },
  {
   "key": "tulou",
@@ -7082,12 +7119,13 @@
    "seed": 1,
    "lod": 1,
    "radius": 17.660833059687867,
-   "levels": 4
+   "levels": 4,
+   "storey_hs": null
   },
-  "gen_s": 0.04,
+  "gen_s": 0.05,
   "thumb": "thumbs\\tulou__hakka__1.png",
   "ok": true,
-  "total_s": 0.13
+  "total_s": 0.16
  },
  {
   "key": "huabiao",
@@ -7107,12 +7145,13 @@
    "style": "ming",
    "seed": 1,
    "lod": 1,
-   "height": 6.4250722216756655
+   "height": 6.4250722216756655,
+   "storey_hs": null
   },
-  "gen_s": 0.0,
+  "gen_s": 0.01,
   "thumb": "thumbs\\huabiao__ming__1.png",
   "ok": true,
-  "total_s": 0.08
+  "total_s": 0.1
  },
  {
   "key": "huabiao",
@@ -7132,12 +7171,13 @@
    "style": "song",
    "seed": 2,
    "lod": 1,
-   "height": 7.880756188580428
+   "height": 7.880756188580428,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\huabiao__song__2.png",
   "ok": true,
-  "total_s": 0.08
+  "total_s": 0.09
  },
  {
   "key": "taiji",
@@ -7167,12 +7207,13 @@
    "slope": 0.0,
    "yuetai": false,
    "bases": true,
+   "storey_hs": null,
    "top": 1.67
   },
   "gen_s": 0.03,
   "thumb": "thumbs\\taiji__song__1.png",
   "ok": true,
-  "total_s": 0.12
+  "total_s": 0.13
  },
  {
   "key": "taiji",
@@ -7202,12 +7243,13 @@
    "slope": 0.0,
    "yuetai": false,
    "bases": true,
+   "storey_hs": null,
    "top": 1.795
   },
   "gen_s": 0.02,
   "thumb": "thumbs\\taiji__tang__2.png",
   "ok": true,
-  "total_s": 0.11
+  "total_s": 0.12
  },
  {
   "key": "tan",
@@ -7231,12 +7273,13 @@
    "height": 2.161546287844535,
    "shape": "round",
    "balustrade": "dan",
-   "tiers": 2
+   "tiers": 2,
+   "storey_hs": null
   },
-  "gen_s": 0.04,
+  "gen_s": 0.05,
   "thumb": "thumbs\\tan__song__1.png",
   "ok": true,
-  "total_s": 0.13
+  "total_s": 0.14
  },
  {
   "key": "tan",
@@ -7260,12 +7303,13 @@
    "height": 2.5108160489911375,
    "shape": "round",
    "balustrade": "dan",
-   "tiers": 3
+   "tiers": 3,
+   "storey_hs": null
   },
-  "gen_s": 0.06,
+  "gen_s": 0.07,
   "thumb": "thumbs\\tan__tang__2.png",
   "ok": true,
-  "total_s": 0.14
+  "total_s": 0.17
  },
  {
   "key": "retaining",
@@ -7290,12 +7334,13 @@
    "tier_h": 2.2091290346980323,
    "step_back": 3.4703575555646093,
    "material": "wall_pebble",
-   "stair": true
+   "stair": true,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\retaining__lanxi__1.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.11
  },
  {
   "key": "retaining",
@@ -7320,12 +7365,13 @@
    "tier_h": 1.8902424216070481,
    "step_back": 5.821005156128976,
    "material": "ashlar_grey",
-   "stair": true
+   "stair": true,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\retaining__north_folk__2.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.11
  },
  {
   "key": "linshui",
@@ -7351,12 +7397,13 @@
    "matou_w": 5.457175358094842,
    "steps": "front",
    "decay": 0.0,
-   "material": "ashlar_moss"
+   "material": "ashlar_moss",
+   "storey_hs": null
   },
-  "gen_s": 0.01,
+  "gen_s": 0.02,
   "thumb": "thumbs\\linshui__lanxi__1.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "linshui",
@@ -7382,12 +7429,13 @@
    "matou_w": 5.0299405849692915,
    "steps": "front",
    "decay": 0.0,
-   "material": "stone_block"
+   "material": "stone_block",
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\linshui__song__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "ruins",
@@ -7412,12 +7460,13 @@
    "height": 0.3468844781964755,
    "decay": 0.7483577754845943,
    "cause": "fire",
-   "walls": "earth_rammed"
+   "walls": "earth_rammed",
+   "storey_hs": null
   },
   "gen_s": 0.04,
   "thumb": "thumbs\\ruins__lanxi__1.png",
   "ok": true,
-  "total_s": 0.13
+  "total_s": 0.14
  },
  {
   "key": "ruins",
@@ -7442,12 +7491,13 @@
    "height": 0.3448964876370786,
    "decay": 0.8172161368363215,
    "cause": "flood",
-   "walls": "earth_rammed"
+   "walls": "earth_rammed",
+   "storey_hs": null
   },
-  "gen_s": 0.06,
+  "gen_s": 0.07,
   "thumb": "thumbs\\ruins__song__2.png",
   "ok": true,
-  "total_s": 0.14
+  "total_s": 0.17
  },
  {
   "key": "pier_ruin",
@@ -7469,12 +7519,13 @@
    "lod": 1,
    "length": 12.609907441872206,
    "width": 2.877475253465886,
-   "decay": 0.6464048951124053
+   "decay": 0.6464048951124053,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\pier_ruin__lanxi__1.png",
   "ok": true,
-  "total_s": 0.11
+  "total_s": 0.12
  },
  {
   "key": "luli",
@@ -7497,12 +7548,13 @@
    "length": 12.780165862938127,
    "height": 2.4342053571747235,
    "bay": 3.637283031159357,
-   "infill": "reed"
+   "infill": "reed",
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\luli__lanxi__1.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.1
  },
  {
   "key": "luli",
@@ -7525,12 +7577,13 @@
    "length": 13.999446116165036,
    "height": 2.9383482372822867,
    "bay": 3.357283032164972,
-   "infill": "open"
+   "infill": "open",
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\luli__song__2.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.11
  },
  {
   "key": "zhuzha",
@@ -7552,12 +7605,13 @@
    "lod": 1,
    "length": 17.27540500835959,
    "height": 2.2018065503650694,
-   "pattern": "dense"
+   "pattern": "dense",
+   "storey_hs": null
   },
-  "gen_s": 0.1,
+  "gen_s": 0.11,
   "thumb": "thumbs\\zhuzha__lanxi__1.png",
   "ok": true,
-  "total_s": 0.2
+  "total_s": 0.23
  },
  {
   "key": "zhuzha",
@@ -7579,12 +7633,13 @@
    "lod": 1,
    "length": 14.837706610001508,
    "height": 2.168848093391548,
-   "pattern": "dense"
+   "pattern": "dense",
+   "storey_hs": null
   },
-  "gen_s": 0.08,
+  "gen_s": 0.09,
   "thumb": "thumbs\\zhuzha__ganlan__2.png",
   "ok": true,
-  "total_s": 0.17
+  "total_s": 0.18
  },
  {
   "key": "matai",
@@ -7606,12 +7661,13 @@
    "lod": 1,
    "material": "stone",
    "decor": "diezhe",
-   "post": false
+   "post": false,
+   "storey_hs": null
   },
   "gen_s": 0.0,
   "thumb": "thumbs\\matai__lanxi__1.png",
   "ok": true,
-  "total_s": 0.08
+  "total_s": 0.09
  },
  {
   "key": "matai",
@@ -7633,12 +7689,13 @@
    "lod": 1,
    "material": "stone",
    "decor": "su",
-   "post": true
+   "post": true,
+   "storey_hs": null
   },
   "gen_s": 0.0,
   "thumb": "thumbs\\matai__song__2.png",
   "ok": true,
-  "total_s": 0.08
+  "total_s": 0.09
  },
  {
   "key": "macao",
@@ -7661,12 +7718,13 @@
    "length": 4.397436425997561,
    "material": "brick",
    "fill": "none",
-   "posts": false
+   "posts": false,
+   "storey_hs": null
   },
   "gen_s": 0.0,
   "thumb": "thumbs\\macao__lanxi__1.png",
   "ok": true,
-  "total_s": 0.08
+  "total_s": 0.09
  },
  {
   "key": "macao",
@@ -7689,7 +7747,8 @@
    "length": 3.2863009500583495,
    "material": "brick",
    "fill": "hay",
-   "posts": false
+   "posts": false,
+   "storey_hs": null
   },
   "gen_s": 0.0,
   "thumb": "thumbs\\macao__north_folk__2.png",
@@ -7716,12 +7775,13 @@
    "lod": 1,
    "top": "fupen",
    "lid": false,
-   "cover": "lulu"
+   "cover": "lulu",
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\jingkou__lanxi__1.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "jingkou",
@@ -7743,12 +7803,13 @@
    "lod": 1,
    "top": "fupen",
    "lid": true,
-   "cover": "jingwuzi"
+   "cover": "jingwuzi",
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\jingkou__song__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "zao",
@@ -7771,9 +7832,10 @@
    "kind": "fu",
    "pot": 1.0,
    "chimney": true,
-   "roof_h": 3.2070447856289004
+   "roof_h": 3.2070447856289004,
+   "storey_hs": null
   },
-  "gen_s": 0.0,
+  "gen_s": 0.01,
   "thumb": "thumbs\\zao__lanxi__1.png",
   "ok": true,
   "total_s": 0.09
@@ -7799,12 +7861,13 @@
    "kind": "huo",
    "pot": 1.2,
    "chimney": false,
-   "roof_h": 3.2265236298350657
+   "roof_h": 3.2265236298350657,
+   "storey_hs": null
   },
-  "gen_s": 0.0,
+  "gen_s": 0.01,
   "thumb": "thumbs\\zao__north_folk__2.png",
   "ok": true,
-  "total_s": 0.08
+  "total_s": 0.09
  },
  {
   "key": "boat",
@@ -7828,12 +7891,13 @@
    "length": 10.562247754630512,
    "beam": 2.91843181319534,
    "awning": true,
-   "plank": false
+   "plank": false,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\boat__lanxi__1.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.1
  },
  {
   "key": "boat",
@@ -7857,12 +7921,13 @@
    "length": 8.324236709778946,
    "beam": 3.0814821726006714,
    "awning": true,
-   "plank": true
+   "plank": true,
+   "storey_hs": null
   },
   "gen_s": 0.02,
   "thumb": "thumbs\\boat__jiangnan__2.png",
   "ok": true,
-  "total_s": 0.12
+  "total_s": 0.13
  },
  {
   "key": "wanghuolou",
@@ -7885,12 +7950,13 @@
    "height": 8.635870993855738,
    "braces": true,
    "rail": false,
-   "bell": true
+   "bell": true,
+   "storey_hs": null
   },
   "gen_s": 0.02,
   "thumb": "thumbs\\wanghuolou__lanxi__1.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "wanghuolou",
@@ -7913,12 +7979,13 @@
    "height": 8.464050077296628,
    "braces": true,
    "rail": true,
-   "bell": false
+   "bell": false,
+   "storey_hs": null
   },
   "gen_s": 0.02,
   "thumb": "thumbs\\wanghuolou__song__2.png",
   "ok": true,
-  "total_s": 0.1
+  "total_s": 0.11
  },
  {
   "key": "shuichuang",
@@ -7942,7 +8009,8 @@
    "span": 3.7720504107965667,
    "over": "road",
    "height": 7.918235020452839,
-   "grille": true
+   "grille": true,
+   "storey_hs": null
   },
   "gen_s": 0.04,
   "thumb": "thumbs\\shuichuang__lanxi__1.png",
@@ -7971,12 +8039,13 @@
    "span": 3.1436711366790275,
    "over": "none",
    "height": 7.904871084027466,
-   "grille": false
+   "grille": false,
+   "storey_hs": null
   },
   "gen_s": 0.07,
   "thumb": "thumbs\\shuichuang__song__2.png",
   "ok": true,
-  "total_s": 0.16
+  "total_s": 0.17
  },
  {
   "key": "yao",
@@ -7998,12 +8067,13 @@
    "lod": 1,
    "scale": 1.0,
    "count": 1,
-   "yard": false
+   "yard": false,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\yao__lanxi__1.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.1
  },
  {
   "key": "yao",
@@ -8025,12 +8095,13 @@
    "lod": 1,
    "scale": 0.75,
    "count": 1,
-   "yard": true
+   "yard": true,
+   "storey_hs": null
   },
   "gen_s": 0.01,
   "thumb": "thumbs\\yao__north_folk__2.png",
   "ok": true,
-  "total_s": 0.09
+  "total_s": 0.1
  },
  {
   "key": "siheyuan1",
@@ -8047,10 +8118,10 @@
    5.93
   ],
   "spec": {},
-  "gen_s": 0.96,
+  "gen_s": 0.99,
   "thumb": "thumbs\\siheyuan1__lanxi__1.png",
   "ok": true,
-  "total_s": 1.11
+  "total_s": 1.15
  },
  {
   "key": "siheyuan1",
@@ -8067,10 +8138,10 @@
    5.95
   ],
   "spec": {},
-  "gen_s": 0.98,
+  "gen_s": 1.05,
   "thumb": "thumbs\\siheyuan1__north_folk__2.png",
   "ok": true,
-  "total_s": 1.13
+  "total_s": 1.21
  },
  {
   "key": "siheyuan2",
@@ -8087,10 +8158,10 @@
    6.19
   ],
   "spec": {},
-  "gen_s": 1.1,
+  "gen_s": 1.15,
   "thumb": "thumbs\\siheyuan2__lanxi__1.png",
   "ok": true,
-  "total_s": 1.33
+  "total_s": 1.39
  },
  {
   "key": "siheyuan2",
@@ -8107,10 +8178,10 @@
    6.15
   ],
   "spec": {},
-  "gen_s": 1.08,
+  "gen_s": 1.13,
   "thumb": "thumbs\\siheyuan2__north_folk__2.png",
   "ok": true,
-  "total_s": 1.24
+  "total_s": 1.29
  },
  {
   "key": "siheyuan3",
@@ -8127,10 +8198,10 @@
    6.19
   ],
   "spec": {},
-  "gen_s": 1.47,
+  "gen_s": 1.48,
   "thumb": "thumbs\\siheyuan3__lanxi__1.png",
   "ok": true,
-  "total_s": 1.72
+  "total_s": 1.68
  },
  {
   "key": "siheyuan3",
@@ -8147,10 +8218,10 @@
    6.34
   ],
   "spec": {},
-  "gen_s": 1.39,
+  "gen_s": 1.44,
   "thumb": "thumbs\\siheyuan3__ming__2.png",
   "ok": true,
-  "total_s": 1.57
+  "total_s": 1.64
  },
  {
   "key": "sanheyuan",
@@ -8167,10 +8238,10 @@
    5.4
   ],
   "spec": {},
-  "gen_s": 0.55,
+  "gen_s": 0.58,
   "thumb": "thumbs\\sanheyuan__north_folk__1.png",
   "ok": true,
-  "total_s": 0.68
+  "total_s": 0.8
  },
  {
   "key": "sanheyuan",
@@ -8190,7 +8261,7 @@
   "gen_s": 0.55,
   "thumb": "thumbs\\sanheyuan__lanxi__2.png",
   "ok": true,
-  "total_s": 0.69
+  "total_s": 0.68
  },
  {
   "key": "tianjing",
@@ -8207,10 +8278,10 @@
    8.88
   ],
   "spec": {},
-  "gen_s": 0.5,
+  "gen_s": 0.52,
   "thumb": "thumbs\\tianjing__hui__1.png",
   "ok": true,
-  "total_s": 0.62
+  "total_s": 0.64
  },
  {
   "key": "tianjing",
@@ -8227,10 +8298,10 @@
    8.83
   ],
   "spec": {},
-  "gen_s": 0.53,
+  "gen_s": 0.55,
   "thumb": "thumbs\\tianjing__jiangnan__2.png",
   "ok": true,
-  "total_s": 0.67
+  "total_s": 0.7
  },
  {
   "key": "shop_house",
@@ -8247,10 +8318,10 @@
    6.06
   ],
   "spec": {},
-  "gen_s": 0.43,
+  "gen_s": 0.45,
   "thumb": "thumbs\\shop_house__lanxi__1.png",
   "ok": true,
-  "total_s": 0.61
+  "total_s": 0.59
  },
  {
   "key": "shop_house",
@@ -8267,10 +8338,10 @@
    6.24
   ],
   "spec": {},
-  "gen_s": 0.38,
+  "gen_s": 0.43,
   "thumb": "thumbs\\shop_house__jiangnan__2.png",
   "ok": true,
-  "total_s": 0.55
+  "total_s": 0.56
  },
  {
   "key": "yamen_c",
@@ -8287,10 +8358,10 @@
    12.07
   ],
   "spec": {},
-  "gen_s": 2.77,
+  "gen_s": 2.94,
   "thumb": "thumbs\\yamen_c__lanxi__1.png",
   "ok": true,
-  "total_s": 3.0
+  "total_s": 3.23
  },
  {
   "key": "yamen_c",
@@ -8307,10 +8378,10 @@
    10.83
   ],
   "spec": {},
-  "gen_s": 2.91,
+  "gen_s": 3.03,
   "thumb": "thumbs\\yamen_c__song__2.png",
   "ok": true,
-  "total_s": 3.27
+  "total_s": 3.37
  },
  {
   "key": "temple",
@@ -8327,10 +8398,10 @@
    10.86
   ],
   "spec": {},
-  "gen_s": 2.75,
+  "gen_s": 2.8,
   "thumb": "thumbs\\temple__song__1.png",
   "ok": true,
-  "total_s": 2.98
+  "total_s": 3.04
  },
  {
   "key": "temple",
@@ -8347,10 +8418,10 @@
    10.82
   ],
   "spec": {},
-  "gen_s": 2.72,
+  "gen_s": 2.92,
   "thumb": "thumbs\\temple__lanxi__2.png",
   "ok": true,
-  "total_s": 3.08
+  "total_s": 3.25
  },
  {
   "key": "yizhan_c",
@@ -8367,10 +8438,10 @@
    11.12
   ],
   "spec": {},
-  "gen_s": 1.23,
+  "gen_s": 1.33,
   "thumb": "thumbs\\yizhan_c__lanxi__1.png",
   "ok": true,
-  "total_s": 1.47
+  "total_s": 1.55
  },
  {
   "key": "yizhan_c",
@@ -8387,10 +8458,10 @@
    9.61
   ],
   "spec": {},
-  "gen_s": 0.94,
+  "gen_s": 0.98,
   "thumb": "thumbs\\yizhan_c__north_folk__2.png",
   "ok": true,
-  "total_s": 1.08
+  "total_s": 1.2
  },
  {
   "key": "farm",
@@ -8407,10 +8478,10 @@
    5.48
   ],
   "spec": {},
-  "gen_s": 0.31,
+  "gen_s": 0.32,
   "thumb": "thumbs\\farm__north_folk__1.png",
   "ok": true,
-  "total_s": 0.43
+  "total_s": 0.45
  },
  {
   "key": "farm",
@@ -8427,10 +8498,10 @@
    5.4
   ],
   "spec": {},
-  "gen_s": 0.42,
+  "gen_s": 0.45,
   "thumb": "thumbs\\farm__lanxi__2.png",
   "ok": true,
-  "total_s": 0.55
+  "total_s": 0.57
  },
  {
   "key": "modern_residential",
@@ -8447,9 +8518,9 @@
    33.05
   ],
   "spec": {},
-  "gen_s": 24.94,
+  "gen_s": 29.82,
   "thumb": "thumbs\\modern_residential__modern__1.png",
   "ok": true,
-  "total_s": 25.36
+  "total_s": 30.29
  }
 ]

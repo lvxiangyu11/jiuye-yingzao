@@ -38,6 +38,7 @@ def generate(key, style=None, seed=0, lod=1, collection=None, **over):
     if cat == 'compound':
         return C.generate(key, style, seed, collection, lod=lod)
     from .gen import modern
+    over.setdefault('floors', None if over.get('floor_hs') else 6)
     return modern.generate(seed=seed, collection=collection, **over)
 
 
