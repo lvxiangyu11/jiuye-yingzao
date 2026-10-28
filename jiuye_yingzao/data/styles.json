@@ -1,0 +1,1091 @@
+{
+ "_doc": "Style = a fusion preset. pitch.method: song (营造法式 举折) | qing (举架, de-emphasised) | folk (straight + 囊) | flat. Lengths in metres unless noted; corner_lift/corner_out are fractions of the roof half-depth B. bracket.scale = 铺作 height / column height (Tang ~0.45, Song ~0.32, Ming ~0.2, Qing ~0.12). deemphasized=true styles are never picked by random/auto choice. wall_options/wall_low_options/tile_mat_options/trim_options/tile_kind_options: per-building random choice by seed (override with wall=/wall_low=/tile_mat=/trim=/tile=).",
+ "lanxi": {
+  "label": "岚溪县城 · 宋风北地（项目默认）",
+  "note": "宋式木构逻辑（举折、生起、侧脚、悬鱼惹草、破子棂/直棂窗、丹粉刷饰）＋中原北地材料（夯土/土坯/青砖下碱、板瓦合瓦）。官式建筑用筒瓦和鸱尾，民居用合瓦和起翘脊头。",
+  "sources": [
+   "营造法式 卷五/卷十三",
+   "平遥古城 UNESCO 812"
+  ],
+  "pitch": {
+   "method": "song",
+   "folk_ratio": 0.5
+  },
+  "eave_factor": 1.0,
+  "fly": true,
+  "corner_lift": 0.07,
+  "corner_out": 0.04,
+  "shengqi": true,
+  "cejiao": true,
+  "entasis": 0.04,
+  "bracket": {
+   "scale": 0.26,
+   "kind": "song",
+   "max_levels": 3,
+   "bujian": 1
+  },
+  "column": {
+   "shape": "round",
+   "mat": "ochre"
+  },
+  "beam_mat": "ochre",
+  "board_mat": "ochre",
+  "window": "pozi",
+  "door": "banmen",
+  "hall_door": "geyan",
+  "window_mat": "wood",
+  "paper": "paper",
+  "wall": "earth_rammed",
+  "wall_low": "brick_grey",
+  "wall_low_h": 0.9,
+  "gable_wall": "plaster_warm",
+  "platform": "stone",
+  "platform_mat": "stone",
+  "tile": {
+   "official": "tube",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "chiwei",
+   "house": "raised"
+  },
+  "gable": "open",
+  "gable_house": "yingshan_or_xuanshan",
+  "wall_options": [
+   "earth_rammed",
+   "straw_clay",
+   "adobe",
+   "plaster_warm",
+   "plaster_old",
+   "brick_grey_old"
+  ],
+  "wall_low_options": [
+   "brick_grey",
+   "brick_grey_old",
+   "stone",
+   "wall_rubble"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_grey_old",
+   "tile_dark"
+  ]
+ },
+ "tang": {
+  "label": "唐风",
+  "note": "屋面平缓、出檐深远、铺作硕大、鸱尾、直棂窗、版门、红白（土朱＋白壁）。参考南禅寺、佛光寺东大殿的总体比例（推定，不按测绘复原）。",
+  "sources": [
+   "营造法式 卷四/卷五（宋制，向唐推定）",
+   "佛光寺 / 南禅寺 公开资料"
+  ],
+  "pitch": {
+   "method": "song",
+   "cls_shift": -1,
+   "flatten": 0.86
+  },
+  "eave_factor": 1.25,
+  "fly": true,
+  "corner_lift": 0.05,
+  "corner_out": 0.05,
+  "shengqi": true,
+  "cejiao": true,
+  "entasis": 0.05,
+  "bracket": {
+   "scale": 0.45,
+   "kind": "song",
+   "max_levels": 4,
+   "bujian": 1
+  },
+  "column": {
+   "shape": "round",
+   "mat": "ochre"
+  },
+  "beam_mat": "ochre",
+  "board_mat": "ochre",
+  "window": "zhiling",
+  "door": "banmen",
+  "hall_door": "banmen",
+  "window_mat": "ochre",
+  "paper": "paper",
+  "wall": "plaster_white",
+  "wall_low": "plaster_white",
+  "wall_low_h": 0.0,
+  "gable_wall": "plaster_white",
+  "platform": "stone",
+  "platform_mat": "stone_light",
+  "tile": {
+   "official": "tube",
+   "house": "tube"
+  },
+  "tile_mat": "tile_dark",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "chiwei",
+   "house": "chiwei"
+  },
+  "gable": "open",
+  "wall_options": [
+   "plaster_white",
+   "plaster_lime",
+   "plaster_old"
+  ],
+  "wall_low_options": [
+   "plaster_white"
+  ],
+  "tile_mat_options": [
+   "tile_dark",
+   "tile_grey",
+   "tile_black"
+  ]
+ },
+ "song": {
+  "label": "宋式",
+  "note": "严格按《营造法式》：材分八等定比例，殿阁三分举一、厅堂四分举一另加，折屋每架递减半；生起、侧脚、梭柱；格子门、破子棂窗、阑槛钩窗；悬鱼惹草；鸱尾、嫔伽蹲兽。",
+  "sources": [
+   "营造法式 卷四/卷五/卷六/卷七/卷十三"
+  ],
+  "pitch": {
+   "method": "song"
+  },
+  "eave_factor": 1.0,
+  "fly": true,
+  "corner_lift": 0.09,
+  "corner_out": 0.05,
+  "shengqi": true,
+  "cejiao": true,
+  "entasis": 0.06,
+  "bracket": {
+   "scale": 0.32,
+   "kind": "song",
+   "max_levels": 4,
+   "bujian": 2
+  },
+  "column": {
+   "shape": "round",
+   "mat": "ochre"
+  },
+  "beam_mat": "ochre",
+  "board_mat": "ochre",
+  "window": "pozi",
+  "door": "banmen",
+  "hall_door": "geyan",
+  "window_mat": "ochre",
+  "paper": "paper",
+  "wall": "plaster_white",
+  "wall_low": "brick_grey",
+  "wall_low_h": 0.8,
+  "gable_wall": "plaster_white",
+  "platform": "stone",
+  "platform_mat": "stone_light",
+  "tile": {
+   "official": "tube",
+   "house": "tube"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "chiwei",
+   "house": "shoutou"
+  },
+  "gable": "open",
+  "wall_options": [
+   "plaster_white",
+   "plaster_lime",
+   "plaster_stained"
+  ],
+  "wall_low_options": [
+   "brick_grey",
+   "stone_light",
+   "ashlar_grey"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_dark",
+   "tile_grey_old"
+  ]
+ },
+ "liaojin": {
+  "label": "辽金北方",
+  "note": "宋式比例的北方厚重化：柱粗、铺作较大、屋面略缓、青砖台基、兽头脊饰。",
+  "sources": [
+   "营造法式（宋制推定）",
+   "独乐寺/华严寺 公开资料"
+  ],
+  "pitch": {
+   "method": "song",
+   "flatten": 0.93
+  },
+  "eave_factor": 1.1,
+  "fly": true,
+  "corner_lift": 0.05,
+  "corner_out": 0.03,
+  "shengqi": true,
+  "cejiao": true,
+  "entasis": 0.03,
+  "bracket": {
+   "scale": 0.36,
+   "kind": "song",
+   "max_levels": 4,
+   "bujian": 1
+  },
+  "column": {
+   "shape": "round",
+   "mat": "wood_dark"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "zhiling",
+  "door": "banmen",
+  "hall_door": "banmen",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "brick_grey",
+  "wall_low": "stone",
+  "wall_low_h": 0.6,
+  "gable_wall": "brick_grey",
+  "platform": "brick",
+  "platform_mat": "brick_grey",
+  "tile": {
+   "official": "tube",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "shoutou",
+   "house": "raised"
+  },
+  "gable": "open",
+  "wall_options": [
+   "brick_grey",
+   "brick_grey_old",
+   "plaster_warm"
+  ],
+  "wall_low_options": [
+   "stone",
+   "ashlar_grey"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_grey_old"
+  ]
+ },
+ "ming": {
+  "label": "明式",
+  "note": "屋面较宋陡、铺作缩小、补间增多、朱漆柱、灰瓦绿琉璃剪边、格扇门窗。",
+  "sources": [
+   "长物志 卷一·室庐（明，维基文库）",
+   "营造法式（对照）"
+  ],
+  "pitch": {
+   "method": "song",
+   "steepen": 1.12
+  },
+  "eave_factor": 0.9,
+  "fly": true,
+  "corner_lift": 0.08,
+  "corner_out": 0.03,
+  "shengqi": false,
+  "cejiao": true,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.2,
+   "kind": "song",
+   "max_levels": 3,
+   "bujian": 3
+  },
+  "column": {
+   "shape": "round",
+   "mat": "lacquer_red"
+  },
+  "beam_mat": "lacquer_red",
+  "board_mat": "lacquer_red",
+  "window": "geyan",
+  "door": "geyan",
+  "hall_door": "geyan",
+  "window_mat": "lacquer_red",
+  "paper": "paper",
+  "wall": "plaster_warm",
+  "wall_low": "brick_grey",
+  "wall_low_h": 1.0,
+  "gable_wall": "brick_grey",
+  "platform": "stone",
+  "platform_mat": "stone_light",
+  "tile": {
+   "official": "tube",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "trim_mat": "glaze_green",
+  "ridge": {
+   "official": "shoutou",
+   "house": "raised"
+  },
+  "gable": "shanhua",
+  "wall_options": [
+   "plaster_warm",
+   "plaster_red",
+   "plaster_ochre",
+   "plaster_white"
+  ],
+  "wall_low_options": [
+   "brick_grey",
+   "stone_light"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_dark"
+  ],
+  "trim_options": [
+   "glaze_green",
+   ""
+  ]
+ },
+ "qing": {
+  "label": "清官式（弱化，仅作对照）",
+  "deemphasized": true,
+  "note": "举架、密排小斗栱、正吻。用户要求弱化，默认不选用。",
+  "sources": [
+   "清工部《工程做法则例》（未纳入本地文献）"
+  ],
+  "pitch": {
+   "method": "qing"
+  },
+  "eave_factor": 0.85,
+  "fly": true,
+  "corner_lift": 0.08,
+  "corner_out": 0.02,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.12,
+   "kind": "song",
+   "max_levels": 3,
+   "bujian": 6
+  },
+  "column": {
+   "shape": "round",
+   "mat": "lacquer_red"
+  },
+  "beam_mat": "lacquer_red",
+  "board_mat": "lacquer_red",
+  "window": "geyan",
+  "door": "geyan",
+  "hall_door": "geyan",
+  "window_mat": "lacquer_red",
+  "paper": "paper",
+  "wall": "brick_red",
+  "wall_low": "stone_light",
+  "wall_low_h": 1.0,
+  "gable_wall": "brick_red",
+  "platform": "stone",
+  "platform_mat": "stone_light",
+  "tile": {
+   "official": "tube",
+   "house": "tube"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "qing_wen",
+   "house": "qing_wen"
+  },
+  "gable": "shanhua",
+  "wall_options": [
+   "brick_red",
+   "plaster_red"
+  ],
+  "wall_low_options": [
+   "stone_light"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "glaze_yellow"
+  ],
+  "trim_options": [
+   "glaze_green"
+  ]
+ },
+ "north_folk": {
+  "label": "中原北地民居",
+  "note": "硬山为主、无起翘、合瓦或仰瓦、土坯/夯土墙配青砖下碱和墀头、直棂窗或支摘窗、版门。",
+  "sources": [
+   "平遥古城 UNESCO 812",
+   "营造法式 卷十三 散屋用瓦"
+  ],
+  "pitch": {
+   "method": "folk",
+   "folk_ratio": 0.5
+  },
+  "eave_factor": 0.55,
+  "fly": false,
+  "corner_lift": 0.0,
+  "corner_out": 0.0,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.0,
+   "kind": "none",
+   "max_levels": 0,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "round",
+   "mat": "wood_dark"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "zhiling",
+  "door": "banmen",
+  "hall_door": "banmen",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "adobe",
+  "wall_low": "brick_grey",
+  "wall_low_h": 1.0,
+  "gable_wall": "brick_grey",
+  "platform": "brick",
+  "platform_mat": "brick_grey",
+  "tile": {
+   "official": "combo",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "raised",
+   "house": "raised"
+  },
+  "gable": "yingshan",
+  "wall_options": [
+   "adobe",
+   "straw_clay",
+   "mud_smooth",
+   "earth_rammed",
+   "brick_grey_old"
+  ],
+  "wall_low_options": [
+   "brick_grey",
+   "brick_grey_old",
+   "wall_rubble",
+   "stone"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_grey_old",
+   "tile_dark"
+  ]
+ },
+ "loess": {
+  "label": "西北平顶土房",
+  "note": "夯土墙、平屋顶（草泥覆土）、女儿墙、小窗。",
+  "sources": [
+   "西北传统民居（推定）"
+  ],
+  "pitch": {
+   "method": "flat"
+  },
+  "eave_factor": 0.25,
+  "fly": false,
+  "corner_lift": 0.0,
+  "corner_out": 0.0,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.0,
+   "kind": "none",
+   "max_levels": 0,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "square",
+   "mat": "wood_dark"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "zhiling",
+  "door": "banmen",
+  "hall_door": "banmen",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "earth_rammed",
+  "wall_low": "earth_rammed",
+  "wall_low_h": 0.0,
+  "gable_wall": "earth_rammed",
+  "platform": "earth",
+  "platform_mat": "earth_rammed",
+  "tile": {
+   "official": "flat",
+   "house": "flat"
+  },
+  "tile_mat": "earth_rammed",
+  "ridge_mat": "earth_rammed",
+  "ridge": {
+   "official": "plain",
+   "house": "plain"
+  },
+  "gable": "yingshan",
+  "wall_options": [
+   "earth_rammed",
+   "earth_loess",
+   "straw_clay"
+  ],
+  "wall_low_options": [
+   "earth_rammed"
+  ],
+  "tile_mat_options": [
+   "sod_roof",
+   "earth_loess"
+  ]
+ },
+ "jiangnan": {
+  "label": "江南 · 粉墙黛瓦",
+  "note": "白墙、深色木构、屋面较陡、翼角高翘（嫩戗发戗）、纹头脊、格扇长窗、楼层挑台。",
+  "sources": [
+   "苏州古典园林 UNESCO 813"
+  ],
+  "pitch": {
+   "method": "folk",
+   "folk_ratio": 0.62
+  },
+  "eave_factor": 0.8,
+  "fly": true,
+  "corner_lift": 0.2,
+  "corner_out": 0.06,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.08,
+   "kind": "simple",
+   "max_levels": 1,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "round",
+   "mat": "wood_dark"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "geyan",
+  "door": "geyan",
+  "hall_door": "geyan",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "plaster_white",
+  "wall_low": "stone",
+  "wall_low_h": 0.4,
+  "gable_wall": "plaster_white",
+  "platform": "stone",
+  "platform_mat": "stone",
+  "tile": {
+   "official": "combo",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "curl",
+   "house": "curl"
+  },
+  "gable": "yingshan",
+  "wall_options": [
+   "plaster_white",
+   "plaster_stained",
+   "plaster_old",
+   "plaster_lime"
+  ],
+  "wall_low_options": [
+   "stone",
+   "ashlar_grey",
+   "brick_grey_moss"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_grey_old",
+   "tile_moss",
+   "tile_dark"
+  ]
+ },
+ "hui": {
+  "label": "徽州 · 马头墙",
+  "note": "高白墙、阶梯马头封火墙、小高窗、门罩。",
+  "sources": [
+   "皖南古村落 西递宏村 UNESCO 1002"
+  ],
+  "pitch": {
+   "method": "folk",
+   "folk_ratio": 0.55
+  },
+  "eave_factor": 0.5,
+  "fly": false,
+  "corner_lift": 0.0,
+  "corner_out": 0.0,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.0,
+   "kind": "none",
+   "max_levels": 0,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "round",
+   "mat": "wood_dark"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "small",
+  "door": "banmen",
+  "hall_door": "geyan",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "plaster_white",
+  "wall_low": "stone",
+  "wall_low_h": 0.5,
+  "gable_wall": "plaster_white",
+  "platform": "stone",
+  "platform_mat": "stone",
+  "tile": {
+   "official": "combo",
+   "house": "combo"
+  },
+  "tile_mat": "tile_dark",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "plain",
+   "house": "plain"
+  },
+  "gable": "horse",
+  "wall_options": [
+   "plaster_white",
+   "plaster_old",
+   "plaster_stained"
+  ],
+  "wall_low_options": [
+   "stone",
+   "ashlar_moss"
+  ],
+  "tile_mat_options": [
+   "tile_dark",
+   "tile_black",
+   "tile_grey_old"
+  ]
+ },
+ "lingnan": {
+  "label": "岭南 · 镬耳",
+  "note": "青砖墙、花岗岩石脚、镬耳封火山墙、平缓屋面。",
+  "sources": [
+   "广州瓜岭古村宗祠",
+   "广州市传统风貌建筑修缮技术导则"
+  ],
+  "pitch": {
+   "method": "folk",
+   "folk_ratio": 0.45
+  },
+  "eave_factor": 0.45,
+  "fly": false,
+  "corner_lift": 0.0,
+  "corner_out": 0.0,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.0,
+   "kind": "none",
+   "max_levels": 0,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "square",
+   "mat": "stone_light"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "zhiling",
+  "door": "banmen",
+  "hall_door": "banmen",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "brick_grey",
+  "wall_low": "stone_light",
+  "wall_low_h": 1.1,
+  "gable_wall": "brick_grey",
+  "platform": "stone",
+  "platform_mat": "stone_light",
+  "tile": {
+   "official": "combo",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "curl",
+   "house": "plain"
+  },
+  "gable": "wok",
+  "wall_options": [
+   "brick_grey",
+   "brick_grey_old",
+   "brick_grey_moss"
+  ],
+  "wall_low_options": [
+   "stone_light",
+   "ashlar_grey"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_grey_old"
+  ]
+ },
+ "minnan": {
+  "label": "闽南 · 红砖燕尾",
+  "note": "红砖白石、红瓦、燕尾脊、马鞍山墙。",
+  "sources": [
+   "凝固在红砖古厝里的闽台缘",
+   "石狮蔡衍湖宅"
+  ],
+  "pitch": {
+   "method": "folk",
+   "folk_ratio": 0.5
+  },
+  "eave_factor": 0.5,
+  "fly": false,
+  "corner_lift": 0.03,
+  "corner_out": 0.0,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.06,
+   "kind": "simple",
+   "max_levels": 1,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "square",
+   "mat": "stone_light"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "zhiling",
+  "door": "banmen",
+  "hall_door": "geyan",
+  "window_mat": "stone_light",
+  "paper": "paper",
+  "wall": "brick_red",
+  "wall_low": "stone_light",
+  "wall_low_h": 1.0,
+  "gable_wall": "brick_red",
+  "platform": "stone",
+  "platform_mat": "stone_light",
+  "tile": {
+   "official": "tube",
+   "house": "tube"
+  },
+  "tile_mat": "tile_red",
+  "ridge_mat": "tile_red",
+  "ridge": {
+   "official": "swallow",
+   "house": "swallow"
+  },
+  "gable": "yingshan",
+  "wall_options": [
+   "brick_red",
+   "brick_red_old"
+  ],
+  "wall_low_options": [
+   "stone_light",
+   "ashlar_grey"
+  ],
+  "tile_mat_options": [
+   "tile_red",
+   "tile_red_old"
+  ]
+ },
+ "chuan": {
+  "label": "川西 · 穿斗",
+  "note": "穿斗木构外露、竹编夹泥白墙、悬山长出檐、小青瓦、无斗栱（挑枋出檐）。",
+  "sources": [
+   "川西民居（推定）"
+  ],
+  "pitch": {
+   "method": "folk",
+   "folk_ratio": 0.5
+  },
+  "eave_factor": 1.1,
+  "fly": false,
+  "corner_lift": 0.0,
+  "corner_out": 0.0,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.0,
+   "kind": "chuandou",
+   "max_levels": 0,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "round",
+   "mat": "wood_dark"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "zhiling",
+  "door": "banmen",
+  "hall_door": "geyan",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "plaster_white",
+  "wall_low": "planks",
+  "wall_low_h": 0.9,
+  "gable_wall": "plaster_white",
+  "platform": "stone",
+  "platform_mat": "stone",
+  "tile": {
+   "official": "combo",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "raised",
+   "house": "raised"
+  },
+  "gable": "chuandou",
+  "wall_options": [
+   "plaster_white",
+   "plaster_old",
+   "wattle",
+   "straw_clay"
+  ],
+  "wall_low_options": [
+   "planks",
+   "planks_old",
+   "stone"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_grey_old",
+   "tile_moss"
+  ]
+ },
+ "ganlan": {
+  "label": "西南 · 干栏吊脚",
+  "note": "木板墙、架空立柱、挑廊、悬山或歇山、小青瓦或树皮/茅草。",
+  "sources": [
+   "西江木质吊脚楼"
+  ],
+  "pitch": {
+   "method": "folk",
+   "folk_ratio": 0.48
+  },
+  "eave_factor": 1.0,
+  "fly": false,
+  "corner_lift": 0.04,
+  "corner_out": 0.0,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.0,
+   "kind": "chuandou",
+   "max_levels": 0,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "round",
+   "mat": "wood_dark"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "zhiling",
+  "door": "banmen",
+  "hall_door": "banmen",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "planks",
+  "wall_low": "planks",
+  "wall_low_h": 0.0,
+  "gable_wall": "planks",
+  "platform": "none",
+  "platform_mat": "stone",
+  "tile": {
+   "official": "combo",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "raised",
+   "house": "raised"
+  },
+  "gable": "open",
+  "stilts": 1.8,
+  "wall_options": [
+   "planks",
+   "planks_old",
+   "boards_weathered",
+   "wattle"
+  ],
+  "wall_low_options": [
+   "planks"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_moss",
+   "tile_grey_old"
+  ],
+  "tile_kind_options": [
+   "combo",
+   "combo",
+   "bark",
+   "bamboo",
+   "thatch"
+  ]
+ },
+ "daoguan": {
+  "label": "观宇 · 宗门（克制的仙家气）",
+  "note": "宋式殿阁比例，白石台基，黑漆柱，灰瓦绿琉璃剪边，鸱尾较高；不做浮空与发光纹样（地理设计规范 E4）。",
+  "sources": [
+   "营造法式 卷五/卷十三",
+   "地理与场景设计规范 E4"
+  ],
+  "pitch": {
+   "method": "song"
+  },
+  "eave_factor": 1.1,
+  "fly": true,
+  "corner_lift": 0.12,
+  "corner_out": 0.06,
+  "shengqi": true,
+  "cejiao": true,
+  "entasis": 0.05,
+  "bracket": {
+   "scale": 0.3,
+   "kind": "song",
+   "max_levels": 4,
+   "bujian": 2
+  },
+  "column": {
+   "shape": "round",
+   "mat": "lacquer_black"
+  },
+  "beam_mat": "lacquer_black",
+  "board_mat": "lacquer_black",
+  "window": "pozi",
+  "door": "geyan",
+  "hall_door": "geyan",
+  "window_mat": "lacquer_black",
+  "paper": "paper",
+  "wall": "plaster_white",
+  "wall_low": "stone_light",
+  "wall_low_h": 0.9,
+  "gable_wall": "plaster_white",
+  "platform": "xumi",
+  "platform_mat": "stone_light",
+  "tile": {
+   "official": "tube",
+   "house": "tube"
+  },
+  "tile_mat": "tile_dark",
+  "ridge_mat": "tile_dark",
+  "trim_mat": "glaze_green",
+  "ridge": {
+   "official": "chiwei",
+   "house": "shoutou"
+  },
+  "gable": "open",
+  "wall_options": [
+   "plaster_white",
+   "plaster_lime",
+   "plaster_red"
+  ],
+  "wall_low_options": [
+   "stone_light",
+   "ashlar_grey"
+  ],
+  "tile_mat_options": [
+   "tile_dark",
+   "tile_black",
+   "glaze_black"
+  ],
+  "trim_options": [
+   "glaze_green",
+   "glaze_turquoise"
+  ]
+ },
+ "hakka": {
+  "label": "客家 · 夯土",
+  "note": "厚夯土外墙、内向木构回廊；用于土楼/围屋特殊类型。",
+  "sources": [
+   "福建土楼 UNESCO 1113"
+  ],
+  "pitch": {
+   "method": "folk",
+   "folk_ratio": 0.45
+  },
+  "eave_factor": 0.9,
+  "fly": false,
+  "corner_lift": 0.0,
+  "corner_out": 0.0,
+  "shengqi": false,
+  "cejiao": false,
+  "entasis": 0.0,
+  "bracket": {
+   "scale": 0.0,
+   "kind": "none",
+   "max_levels": 0,
+   "bujian": 0
+  },
+  "column": {
+   "shape": "round",
+   "mat": "wood_dark"
+  },
+  "beam_mat": "wood_dark",
+  "board_mat": "wood_dark",
+  "window": "small",
+  "door": "banmen",
+  "hall_door": "banmen",
+  "window_mat": "wood_dark",
+  "paper": "paper",
+  "wall": "earth_rammed",
+  "wall_low": "stone",
+  "wall_low_h": 1.2,
+  "gable_wall": "earth_rammed",
+  "platform": "stone",
+  "platform_mat": "stone",
+  "tile": {
+   "official": "combo",
+   "house": "combo"
+  },
+  "tile_mat": "tile_grey",
+  "ridge_mat": "tile_dark",
+  "ridge": {
+   "official": "plain",
+   "house": "plain"
+  },
+  "gable": "yingshan",
+  "wall_options": [
+   "earth_rammed",
+   "earth_red",
+   "earth_loess"
+  ],
+  "wall_low_options": [
+   "stone",
+   "wall_rubble"
+  ],
+  "tile_mat_options": [
+   "tile_grey",
+   "tile_grey_old"
+  ]
+ }
+}

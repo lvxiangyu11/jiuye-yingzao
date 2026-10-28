@@ -1,0 +1,20 @@
+[
+ ["luli","lanxi",1,{"infill":"wattle","length":9.0},"露篱 竹编 版屋"],
+ ["luli","song",2,{"infill":"open","length":9.0,"lod":0},"露篱 曲棖 无填充"],
+ ["zhuzha","lanxi",1,{"pattern":"dense","height":2.4,"length":8.0},"竹栅 密排"],
+ ["matai","song",1,{"material":"stone","decor":"diezhe","post":true},"石马台 叠涩 拴马桩"],
+ ["macao","lanxi",1,{"material":"brick","fill":"hay","posts":true},"砖马槽"],
+ ["jingkou","song",1,{"top":"lian","cover":"jingwuzi","lid":true,"lod":0},"井口石 莲华 井屋子"],
+ ["jingkou","lanxi",2,{"top":"fupen","cover":"lulu"},"井口石 覆盆 辘轳"],
+ ["zao","lanxi",1,{"kind":"li_zhuanyan","chimney":true},"立灶 转烟连二"],
+ ["zao","lanxi",2,{"kind":"huo","chimney":true},"镬灶 后驼项突"],
+ ["boat","lanxi",1,{"kind":"ferry","awning":true,"plank":true},"渡船"],
+ ["boat","lanxi",2,{"kind":"zhou"},"舟（长物志）"],
+ ["boat","lanxi",3,{"kind":"xiao"},"小船（长物志）"],
+ ["wanghuolou","song",1,{"bell":true},"望火楼"],
+ ["shuichuang","lanxi",1,{"openings":1,"over":"wall","grille":true},"城下水窗 单眼"],
+ ["shuichuang","song",2,{"openings":3,"over":"road"},"路下水窗 三眼"],
+ ["yao","lanxi",1,{"count":1,"yard":true,"scale":1.0},"砖瓦窑"],
+ ["yingwu","lanxi",1,{},"营屋"],
+ ["maowu","north_folk",1,{},"茅屋 葺屋参分"]
+]

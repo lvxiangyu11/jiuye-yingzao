@@ -1,0 +1,12 @@
+[["pailou","ming",1,{"openings":1,"material":"wood","chongtian":false,"lou":"basic"},"一间二柱一楼·木"],
+ ["pailou","ming",1,{"openings":1,"material":"wood","chongtian":false,"lou":"full"},"一间二柱三楼·木"],
+ ["pailou","lanxi",2,{"openings":3,"material":"wood","chongtian":false,"lou":"basic"},"三间四柱三楼·木"],
+ ["pailou","ming",3,{"openings":3,"material":"wood","chongtian":false,"lou":"full"},"三间四柱七楼·木"],
+ ["pailou","song",4,{"openings":3,"material":"wood","chongtian":true,"lou":"basic"},"三间四柱三楼·冲天柱"],
+ ["pailou","ming",5,{"openings":3,"material":"stone","chongtian":false,"lou":"full"},"三间四柱七楼·石"],
+ ["pailou","daoguan",6,{"openings":3,"material":"glazed","chongtian":false,"lou":"full"},"三间七楼·琉璃"],
+ ["pailou","ming",7,{"openings":5,"material":"wood","chongtian":false,"lou":"full"},"五间六柱十一楼·木"],
+ ["pailou","lanxi",8,{"openings":5,"material":"stone","chongtian":true,"lou":"basic"},"五间冲天柱·石"],
+ ["paifang","ming",1,{"openings":3,"material":"stone"},"牌坊·三间·石"],
+ ["paifang","lanxi",2,{"openings":1,"material":"wood"},"牌坊·一间·木"],
+ ["lingxingmen","song",1,{},"棂星门"]]

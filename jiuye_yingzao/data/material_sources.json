@@ -1,0 +1,68 @@
+{
+ "provider": "ambientCG",
+ "license": "CC0-1.0",
+ "license_url": "https://docs.ambientcg.com/license/",
+ "downloaded": "2026-10-27",
+ "assets": [
+  {
+   "asset": "ThatchedRoof001A",
+   "source": "https://ambientcg.com/view?id=ThatchedRoof001A",
+   "package": "ThatchedRoof001A_1K-JPG.zip",
+   "maps": {
+    "Color": "19d7b3629f126825b0f1bd6abe25d530dd0f67b7d5a49f520a6c609e88e0bf79",
+    "NormalGL": "a27fbcea5446f6f84d579a916d964b66a7968a343f4dd12dcb2e741f92ec49fe",
+    "Roughness": "65af6119eaa38908691bbf0febcd88c7ae061eeee7ff202c6210f936e4a3c4e7"
+   }
+  },
+  {
+   "asset": "Bamboo001A",
+   "source": "https://ambientcg.com/view?id=Bamboo001A",
+   "package": "Bamboo001A_1K-JPG.zip",
+   "maps": {
+    "Color": "ebb28f06b48f179c0ba1f008f7dc3b763145f64754eca2aec660a8c13c58be0d",
+    "NormalGL": "4491d0a751defea9036be369a4ac99d0f9b0e4de3f1f7e8087b375702acc5398",
+    "Roughness": "88683059d529ee68180cf70764549afd720250b9b7805815a84885652a3230d0"
+   }
+  },
+  {
+   "asset": "Clay005",
+   "source": "https://ambientcg.com/view?id=Clay005",
+   "package": "Clay005_1K-JPG.zip",
+   "maps": {
+    "Color": "10389821e482eb0e4cdc92b2198e65a8c5b1ae10f8c6ff5de8329da6af220d79",
+    "NormalGL": "4f3256d5f53d08f69690c86fc959e393149623116810f25dba78aae2cdc680c1",
+    "Roughness": "70230aa7237f30f71a079638769859aae4a601d649b94ef9e5814fe69299b0f2"
+   }
+  },
+  {
+   "asset": "Planks023A",
+   "source": "https://ambientcg.com/view?id=Planks023A",
+   "package": "Planks023A_1K-JPG.zip",
+   "maps": {
+    "Color": "df154cf5a2db02fc77bd6086ee81e757ccabd43f16a0f5feff653cffb0538642",
+    "NormalGL": "a0280bca19e8162fcae09b5b149908a9ed495a5db084597bf9c18fcab21e36e2",
+    "Roughness": "d8e07a185841eca6818ea13b6d5df85fd4d157ca28dd22f490aea9542321b48f"
+   }
+  },
+  {
+   "asset": "Concrete034",
+   "source": "https://ambientcg.com/view?id=Concrete034",
+   "package": "Concrete034_1K-JPG.zip",
+   "maps": {
+    "Color": "8ceb9186d990b31fce785e06fdc6974c160f1d27c43f6160266f164deba713aa",
+    "NormalGL": "e509eb9dfa978e780fbebfd2acacc2ce158b5b7ced722ddc0759039dd51e18ca",
+    "Roughness": "a4a9e39857a19afd23a778e5abf44fcdf6bd7f93918f1cf6878b41933e553511"
+   }
+  },
+  {
+   "asset": "PaintedPlaster017",
+   "source": "https://ambientcg.com/view?id=PaintedPlaster017",
+   "package": "PaintedPlaster017_1K-JPG.zip",
+   "maps": {
+    "Color": "ed8a69a6437de9d41d2cf380f7e6a216232fc4754f256c3405985c857547ffef",
+    "NormalGL": "1bef1887c10e1ce104be1a557e4dbd7634ef6d5ece6e3b4237dab2d0962f57fa",
+    "Roughness": "a83ecc2ba5b9d80bb9a27381f3389ccdb20c77ef6358b92f3d11455403d651d8"
+   }
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+schema_version = "1.0.0"
+
+id = "jiuye_yingzao"
+version = "0.4.0"
+name = "Jiuye Yingzao 九野营造"
+tagline = "Parametric Chinese buildings after the Yingzao Fashi"
+maintainer = "Xiangyu Lyu"
+type = "add-on"
+website = "https://github.com/lvxiangyu11/jiuye-yingzao"
+tags = ["Add Mesh", "Modeling"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = [
+  "2026 Xiangyu Lyu and the Jiuye Yingzao contributors",
+  "2026 kang340 (vendor/xingfuli, MIT)",
+  "2026 Hailey (threejs-architecture-effects, MIT; design notice)",
+]
+
+[permissions]
+files = "Exports generated buildings (GLB/glTF/FBX) to a user-chosen folder"

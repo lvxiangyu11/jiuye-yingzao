@@ -1,0 +1,2062 @@
+{
+ "_doc": "Single-building types for gen/building.py. Ranges [min,max] are sampled by seed. cls: dian 殿阁 | ting 厅堂 | ting_small 小厅堂/亭榭 | lang 廊屋 | yuwu 余屋(民居/散屋). roof: allowed forms, first = default. front/back/sides: doors_center | door_each | all_doors | windows | wall | shop | open | gate | none. styles: preferred styles for auto/random choice. wall_options/tile_options/tile_mat_options override the style lists for this type.",
+ "zhengfang": {
+  "label": "民居·正房",
+  "group": "民居",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   3,
+   3
+  ],
+  "bay_w": [
+   3.0,
+   3.6
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.15,
+   1.35
+  ],
+  "col_h": [
+   2.9,
+   3.3
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "yingshan",
+   "xuanshan"
+  ],
+  "front": "doors_center",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.3,
+  "platform_h": [
+   0.3,
+   0.5
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk",
+   "jiangnan",
+   "hui",
+   "lingnan",
+   "minnan",
+   "chuan"
+  ]
+ },
+ "xiangfang": {
+  "label": "民居·厢房",
+  "group": "民居",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   2,
+   3
+  ],
+  "bay_w": [
+   2.8,
+   3.2
+  ],
+  "jia": [
+   2,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.7,
+   3.0
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "yingshan",
+   "xuanshan",
+   "juanpeng_ying"
+  ],
+  "front": "doors_center",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.2,
+   0.4
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk",
+   "jiangnan",
+   "chuan"
+  ]
+ },
+ "daozuo": {
+  "label": "民居·倒座/门房",
+  "group": "民居",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   2.8,
+   3.2
+  ],
+  "jia": [
+   2,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.7,
+   3.0
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "yingshan"
+  ],
+  "front": "windows",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.2,
+   0.3
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk"
+  ]
+ },
+ "maowu": {
+  "label": "茅屋",
+  "group": "民居",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   2,
+   3
+  ],
+  "bay_w": [
+   2.6,
+   3.2
+  ],
+  "jia": [
+   2,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.4,
+   2.8
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan",
+   "wudian"
+  ],
+  "tile": "thatch",
+  "front": "doors_center",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.1,
+   0.25
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "north_folk",
+   "lanxi",
+   "loess"
+  ],
+  "wall": "adobe",
+  "wall_options": [
+   "adobe",
+   "straw_clay",
+   "mud_smooth",
+   "wattle",
+   "wall_rubble"
+  ],
+  "tile_mat_options": [
+   "thatch",
+   "thatch_old"
+  ]
+ },
+ "pingfang": {
+  "label": "土坯平房",
+  "group": "民居",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   2,
+   4
+  ],
+  "bay_w": [
+   2.8,
+   3.4
+  ],
+  "jia": [
+   2,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.6,
+   3.0
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "pingding"
+  ],
+  "front": "doors_center",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.1,
+   0.2
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "loess"
+  ],
+  "wall_options": [
+   "earth_rammed",
+   "earth_loess",
+   "straw_clay",
+   "mud_smooth"
+  ]
+ },
+ "shiwu": {
+  "label": "石屋（青石滩）",
+  "group": "民居",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   1,
+   3
+  ],
+  "bay_w": [
+   2.8,
+   3.4
+  ],
+  "jia": [
+   2,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.5,
+   2.8
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "yingshan",
+   "xuanshan"
+  ],
+  "tile": "slate",
+  "front": "doors_center",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.1,
+   0.2
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "north_folk",
+   "lanxi"
+  ],
+  "wall": "stone",
+  "wall_options": [
+   "stone",
+   "wall_slate_dry",
+   "wall_pebble",
+   "wall_rubble",
+   "stone_block"
+  ],
+  "tile_options": [
+   "slate",
+   "slate",
+   "combo"
+  ],
+  "tile_mat_options": [
+   "slate",
+   "slate_scale",
+   "slate_shingle"
+  ]
+ },
+ "loufang": {
+  "label": "民居·两层楼房",
+  "group": "民居",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   3,
+   3
+  ],
+  "bay_w": [
+   3.0,
+   3.6
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.15,
+   1.35
+  ],
+  "col_h": [
+   2.9,
+   3.2
+  ],
+  "floors": [
+   2,
+   2
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan",
+   "xieshan"
+  ],
+  "front": "doors_center",
+  "back": "windows",
+  "sides": "wall",
+  "porch": 0.0,
+  "balcony": 0.6,
+  "platform_h": [
+   0.3,
+   0.45
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "jiangnan",
+   "hui",
+   "chuan",
+   "lanxi",
+   "minnan"
+  ]
+ },
+ "diaojiaolou": {
+  "label": "吊脚楼",
+  "group": "民居",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   3,
+   4
+  ],
+  "bay_w": [
+   2.8,
+   3.4
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.7,
+   3.0
+  ],
+  "floors": [
+   2,
+   3
+  ],
+  "roof": [
+   "xuanshan",
+   "xieshan"
+  ],
+  "front": "doors_center",
+  "back": "windows",
+  "sides": "windows",
+  "porch": 0.0,
+  "balcony": 1.0,
+  "platform_h": [
+   0.0,
+   0.0
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "ganlan"
+  ],
+  "stilts": [
+   1.6,
+   2.4
+  ],
+  "wall_options": [
+   "planks",
+   "planks_old",
+   "boards_weathered"
+  ]
+ },
+ "shop": {
+  "label": "铺面·前店后宅",
+  "group": "商业",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   2,
+   3
+  ],
+  "bay_w": [
+   3.2,
+   3.8
+  ],
+  "jia": [
+   4,
+   6
+  ],
+  "jia_len": [
+   1.15,
+   1.35
+  ],
+  "col_h": [
+   3.1,
+   3.5
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "yingshan",
+   "xuanshan"
+  ],
+  "front": "shop",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "awning": 0.8,
+  "sign": 1.0,
+  "platform_h": [
+   0.15,
+   0.3
+  ],
+  "brackets": [
+   0,
+   1
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk",
+   "jiangnan",
+   "chuan",
+   "minnan"
+  ]
+ },
+ "shop2": {
+  "label": "铺面·下店上宅",
+  "group": "商业",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   2,
+   4
+  ],
+  "bay_w": [
+   3.2,
+   3.8
+  ],
+  "jia": [
+   4,
+   6
+  ],
+  "jia_len": [
+   1.15,
+   1.35
+  ],
+  "col_h": [
+   3.2,
+   3.6
+  ],
+  "floors": [
+   2,
+   2
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan",
+   "xieshan"
+  ],
+  "front": "shop",
+  "back": "windows",
+  "sides": "wall",
+  "porch": 0.0,
+  "awning": 0.6,
+  "sign": 1.0,
+  "balcony": 0.5,
+  "platform_h": [
+   0.15,
+   0.3
+  ],
+  "brackets": [
+   0,
+   1
+  ],
+  "styles": [
+   "lanxi",
+   "jiangnan",
+   "chuan",
+   "minnan"
+  ]
+ },
+ "inn": {
+  "label": "客栈/酒楼",
+  "group": "商业",
+  "cls": "ting",
+  "official": false,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   3.4,
+   4.0
+  ],
+  "jia": [
+   6,
+   6
+  ],
+  "jia_len": [
+   1.2,
+   1.4
+  ],
+  "col_h": [
+   3.4,
+   3.8
+  ],
+  "floors": [
+   2,
+   3
+  ],
+  "roof": [
+   "xieshan",
+   "xuanshan"
+  ],
+  "front": "shop",
+  "back": "windows",
+  "sides": "windows",
+  "porch": 0.4,
+  "balcony": 0.9,
+  "sign": 1.0,
+  "lanterns": 1.0,
+  "platform_h": [
+   0.3,
+   0.5
+  ],
+  "brackets": [
+   1,
+   2
+  ],
+  "styles": [
+   "lanxi",
+   "song",
+   "jiangnan",
+   "ming"
+  ]
+ },
+ "chapeng": {
+  "label": "茶棚",
+  "group": "商业",
+  "cls": "lang",
+  "official": false,
+  "bays": [
+   2,
+   3
+  ],
+  "bay_w": [
+   2.8,
+   3.4
+  ],
+  "jia": [
+   2,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.5,
+   2.8
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "danpo"
+  ],
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "platform_h": [
+   0.0,
+   0.1
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk",
+   "chuan"
+  ],
+  "furniture": "tables"
+ },
+ "huopeng": {
+  "label": "货棚",
+  "group": "商业",
+  "cls": "lang",
+  "official": false,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   3.6,
+   4.4
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.3,
+   1.6
+  ],
+  "col_h": [
+   3.2,
+   3.8
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan"
+  ],
+  "front": "none",
+  "back": "wall",
+  "sides": "none",
+  "porch": 0.0,
+  "platform_h": [
+   0.1,
+   0.2
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk"
+  ],
+  "furniture": "crates"
+ },
+ "cangfang": {
+  "label": "仓廒",
+  "group": "公用",
+  "cls": "yuwu",
+  "official": true,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   3.4,
+   4.0
+  ],
+  "jia": [
+   4,
+   6
+  ],
+  "jia_len": [
+   1.3,
+   1.5
+  ],
+  "col_h": [
+   3.6,
+   4.2
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan"
+  ],
+  "front": "doors_center",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.6,
+   0.9
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk",
+   "liaojin"
+  ],
+  "vents": 1.0,
+  "wall_options": [
+   "brick_grey",
+   "brick_grey_old",
+   "earth_rammed",
+   "ashlar_grey"
+  ]
+ },
+ "zuofang": {
+  "label": "作坊",
+  "group": "商业",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   3,
+   4
+  ],
+  "bay_w": [
+   3.2,
+   3.8
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.2,
+   1.4
+  ],
+  "col_h": [
+   3.0,
+   3.4
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan"
+  ],
+  "front": "open",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "chimney": 1.0,
+  "platform_h": [
+   0.1,
+   0.2
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk",
+   "chuan"
+  ],
+  "wall_options": [
+   "brick_grey_old",
+   "adobe",
+   "straw_clay",
+   "planks_old"
+  ]
+ },
+ "tingtang": {
+  "label": "厅堂",
+  "group": "官式",
+  "cls": "ting",
+  "official": true,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   3.6,
+   4.4
+  ],
+  "jia": [
+   6,
+   6
+  ],
+  "jia_len": [
+   1.4,
+   1.7
+  ],
+  "col_h": [
+   3.6,
+   4.2
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "xieshan",
+   "yingshan"
+  ],
+  "front": "all_doors",
+  "back": "windows",
+  "sides": "wall",
+  "porch": 0.6,
+  "platform_h": [
+   0.5,
+   0.8
+  ],
+  "brackets": [
+   1,
+   2
+  ],
+  "styles": [
+   "lanxi",
+   "song",
+   "ming",
+   "jiangnan",
+   "liaojin"
+  ]
+ },
+ "dadian": {
+  "label": "大殿",
+  "group": "官式",
+  "cls": "dian",
+  "official": true,
+  "bays": [
+   5,
+   7
+  ],
+  "bay_w": [
+   4.4,
+   5.2
+  ],
+  "jia": [
+   8,
+   8
+  ],
+  "jia_len": [
+   1.6,
+   1.85
+  ],
+  "col_h": [
+   4.6,
+   5.2
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "wudian",
+   "xieshan"
+  ],
+  "front": "all_doors",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.9,
+   1.4
+  ],
+  "brackets": [
+   2,
+   4
+  ],
+  "styles": [
+   "song",
+   "tang",
+   "liaojin",
+   "daoguan",
+   "ming"
+  ]
+ },
+ "dian_fujie": {
+  "label": "大殿·副阶周匝",
+  "group": "官式",
+  "cls": "dian",
+  "official": true,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   4.2,
+   5.0
+  ],
+  "jia": [
+   6,
+   8
+  ],
+  "jia_len": [
+   1.5,
+   1.8
+  ],
+  "col_h": [
+   4.8,
+   5.4
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xieshan",
+   "wudian"
+  ],
+  "fujie": 1.0,
+  "front": "all_doors",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   1.0,
+   1.4
+  ],
+  "brackets": [
+   2,
+   3
+  ],
+  "styles": [
+   "song",
+   "daoguan",
+   "tang"
+  ]
+ },
+ "yamen": {
+  "label": "衙署大堂",
+  "group": "官式",
+  "cls": "ting",
+  "official": true,
+  "bays": [
+   5,
+   5
+  ],
+  "bay_w": [
+   3.8,
+   4.4
+  ],
+  "jia": [
+   6,
+   8
+  ],
+  "jia_len": [
+   1.5,
+   1.7
+  ],
+  "col_h": [
+   4.0,
+   4.6
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan"
+  ],
+  "front": "open",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 1.0,
+  "platform_h": [
+   0.8,
+   1.0
+  ],
+  "brackets": [
+   1,
+   1
+  ],
+  "styles": [
+   "lanxi",
+   "song",
+   "ming"
+  ]
+ },
+ "miaodian": {
+  "label": "庙殿（城隍/土地）",
+  "group": "宗教",
+  "cls": "ting",
+  "official": true,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   3.8,
+   4.4
+  ],
+  "jia": [
+   6,
+   6
+  ],
+  "jia_len": [
+   1.4,
+   1.7
+  ],
+  "col_h": [
+   4.0,
+   4.6
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xieshan",
+   "xuanshan"
+  ],
+  "front": "all_doors",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.8,
+  "platform_h": [
+   0.7,
+   1.0
+  ],
+  "brackets": [
+   1,
+   2
+  ],
+  "styles": [
+   "lanxi",
+   "song",
+   "ming",
+   "daoguan"
+  ]
+ },
+ "tudimiao": {
+  "label": "土地小祠",
+  "group": "宗教",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   1.6,
+   2.2
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   0.8,
+   1.0
+  ],
+  "col_h": [
+   1.8,
+   2.2
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan"
+  ],
+  "front": "open",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.3,
+   0.5
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk",
+   "minnan"
+  ]
+ },
+ "louge": {
+  "label": "楼阁",
+  "group": "官式",
+  "cls": "dian",
+  "official": true,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   3.8,
+   4.4
+  ],
+  "jia": [
+   6,
+   6
+  ],
+  "jia_len": [
+   1.4,
+   1.6
+  ],
+  "col_h": [
+   3.8,
+   4.4
+  ],
+  "floors": [
+   2,
+   3
+  ],
+  "roof": [
+   "xieshan",
+   "wudian"
+  ],
+  "front": "all_doors",
+  "back": "windows",
+  "sides": "windows",
+  "porch": 0.0,
+  "pingzuo": 1.0,
+  "yaoyan": 1.0,
+  "platform_h": [
+   0.8,
+   1.2
+  ],
+  "brackets": [
+   2,
+   3
+  ],
+  "styles": [
+   "song",
+   "tang",
+   "daoguan",
+   "ming",
+   "lanxi"
+  ]
+ },
+ "menwu": {
+  "label": "门屋/大门",
+  "group": "门",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   3
+  ],
+  "bay_w": [
+   3.4,
+   4.0
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   3.2,
+   3.6
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan",
+   "xieshan"
+  ],
+  "front": "gate",
+  "back": "open",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.4,
+   0.7
+  ],
+  "brackets": [
+   0,
+   1
+  ],
+  "styles": [
+   "lanxi",
+   "song",
+   "north_folk",
+   "ming"
+  ]
+ },
+ "chuihuamen": {
+  "label": "垂花门/二门",
+  "group": "门",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   2.8,
+   3.2
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.0,
+   1.2
+  ],
+  "col_h": [
+   3.0,
+   3.3
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "juanpeng"
+  ],
+  "front": "gate",
+  "back": "open",
+  "sides": "none",
+  "porch": 0.0,
+  "platform_h": [
+   0.3,
+   0.5
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "ming",
+   "north_folk"
+  ],
+  "hanging_posts": 1.0
+ },
+ "ting4": {
+  "label": "亭·四角",
+  "group": "园林",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   3.2,
+   4.0
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.6,
+   2.0
+  ],
+  "col_h": [
+   2.8,
+   3.2
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "cuanjian",
+   "xieshan"
+  ],
+  "sides_n": 4,
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "railing": 1.0,
+  "platform_h": [
+   0.4,
+   0.6
+  ],
+  "brackets": [
+   0,
+   1
+  ],
+  "styles": [
+   "song",
+   "jiangnan",
+   "lanxi",
+   "daoguan"
+  ]
+ },
+ "ting6": {
+  "label": "亭·六角",
+  "group": "园林",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   3.0,
+   3.6
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.6,
+   1.9
+  ],
+  "col_h": [
+   2.8,
+   3.2
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "cuanjian"
+  ],
+  "sides_n": 6,
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "railing": 1.0,
+  "platform_h": [
+   0.4,
+   0.6
+  ],
+  "brackets": [
+   0,
+   1
+  ],
+  "styles": [
+   "jiangnan",
+   "song",
+   "daoguan"
+  ],
+  "polygon": true
+ },
+ "ting8": {
+  "label": "亭·八角",
+  "group": "园林",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   3.0,
+   3.6
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.6,
+   1.9
+  ],
+  "col_h": [
+   2.8,
+   3.3
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "cuanjian"
+  ],
+  "sides_n": 8,
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "railing": 1.0,
+  "platform_h": [
+   0.5,
+   0.7
+  ],
+  "brackets": [
+   0,
+   2
+  ],
+  "styles": [
+   "song",
+   "daoguan",
+   "jiangnan"
+  ],
+  "polygon": true
+ },
+ "tingyuan": {
+  "label": "亭·圆",
+  "group": "园林",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   3.0,
+   3.4
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.5,
+   1.8
+  ],
+  "col_h": [
+   2.8,
+   3.1
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "yuan"
+  ],
+  "sides_n": 8,
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "railing": 1.0,
+  "platform_h": [
+   0.4,
+   0.6
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "jiangnan",
+   "song"
+  ],
+  "polygon": true
+ },
+ "ting_double": {
+  "label": "亭·重檐",
+  "group": "园林",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   3.6,
+   4.4
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.8,
+   2.2
+  ],
+  "col_h": [
+   3.2,
+   3.6
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "cuanjian",
+   "xieshan"
+  ],
+  "fujie": 1.0,
+  "sides_n": 4,
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "railing": 1.0,
+  "platform_h": [
+   0.6,
+   0.8
+  ],
+  "brackets": [
+   1,
+   1
+  ],
+  "styles": [
+   "song",
+   "daoguan",
+   "jiangnan"
+  ]
+ },
+ "lang": {
+  "label": "廊",
+  "group": "园林",
+  "cls": "lang",
+  "official": false,
+  "bays": [
+   4,
+   8
+  ],
+  "bay_w": [
+   2.6,
+   3.2
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.6,
+   2.9
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "juanpeng",
+   "xuanshan"
+  ],
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "railing": 1.0,
+  "platform_h": [
+   0.2,
+   0.4
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "jiangnan",
+   "song",
+   "lanxi",
+   "ming"
+  ]
+ },
+ "xie": {
+  "label": "水榭",
+  "group": "园林",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   3,
+   3
+  ],
+  "bay_w": [
+   3.0,
+   3.6
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.2,
+   1.4
+  ],
+  "col_h": [
+   3.0,
+   3.3
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xieshan",
+   "juanpeng"
+  ],
+  "front": "none",
+  "back": "all_doors",
+  "sides": "none",
+  "porch": 0.0,
+  "railing": 1.0,
+  "platform_h": [
+   0.6,
+   1.0
+  ],
+  "brackets": [
+   0,
+   1
+  ],
+  "styles": [
+   "jiangnan",
+   "song"
+  ]
+ },
+ "xitai": {
+  "label": "戏台",
+  "group": "公用",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   3
+  ],
+  "bay_w": [
+   4.4,
+   5.2
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.3,
+   1.5
+  ],
+  "col_h": [
+   3.4,
+   3.8
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xieshan"
+  ],
+  "front": "none",
+  "back": "wall",
+  "sides": "none",
+  "porch": 0.0,
+  "platform_h": [
+   1.6,
+   2.0
+  ],
+  "brackets": [
+   1,
+   2
+  ],
+  "styles": [
+   "lanxi",
+   "ming",
+   "song",
+   "jiangnan"
+  ],
+  "railing": 0.0
+ },
+ "jingting": {
+  "label": "井亭",
+  "group": "公用",
+  "cls": "ting_small",
+  "official": false,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   2.6,
+   3.0
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.2,
+   1.4
+  ],
+  "col_h": [
+   2.5,
+   2.8
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "cuanjian",
+   "xuanshan"
+  ],
+  "sides_n": 4,
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "well": 1.0,
+  "platform_h": [
+   0.15,
+   0.3
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "north_folk",
+   "song"
+  ]
+ },
+ "beiting": {
+  "label": "碑亭",
+  "group": "公用",
+  "cls": "ting_small",
+  "official": true,
+  "bays": [
+   1,
+   1
+  ],
+  "bay_w": [
+   3.4,
+   4.0
+  ],
+  "jia": [
+   2,
+   2
+  ],
+  "jia_len": [
+   1.6,
+   1.9
+  ],
+  "col_h": [
+   3.0,
+   3.4
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xieshan",
+   "cuanjian"
+  ],
+  "sides_n": 4,
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "stele": 1.0,
+  "platform_h": [
+   0.5,
+   0.7
+  ],
+  "brackets": [
+   1,
+   2
+  ],
+  "styles": [
+   "song",
+   "lanxi",
+   "daoguan"
+  ]
+ },
+ "zhonglou": {
+  "label": "钟楼/鼓楼",
+  "group": "公用",
+  "cls": "ting_small",
+  "official": true,
+  "bays": [
+   3,
+   3
+  ],
+  "bay_w": [
+   3.0,
+   3.6
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.2,
+   1.4
+  ],
+  "col_h": [
+   3.2,
+   3.6
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xieshan"
+  ],
+  "front": "none",
+  "back": "none",
+  "sides": "none",
+  "porch": 0.0,
+  "railing": 1.0,
+  "base_tower": 1.0,
+  "platform_h": [
+   4.0,
+   5.0
+  ],
+  "brackets": [
+   1,
+   2
+  ],
+  "styles": [
+   "song",
+   "lanxi",
+   "ming",
+   "daoguan"
+  ]
+ },
+ "yizhan": {
+  "label": "驿站正房",
+  "group": "公用",
+  "cls": "ting",
+  "official": true,
+  "bays": [
+   3,
+   5
+  ],
+  "bay_w": [
+   3.4,
+   4.0
+  ],
+  "jia": [
+   4,
+   6
+  ],
+  "jia_len": [
+   1.3,
+   1.5
+  ],
+  "col_h": [
+   3.4,
+   3.8
+  ],
+  "floors": [
+   1,
+   2
+  ],
+  "roof": [
+   "xuanshan",
+   "xieshan"
+  ],
+  "front": "doors_center",
+  "back": "windows",
+  "sides": "wall",
+  "porch": 0.8,
+  "sign": 0.6,
+  "platform_h": [
+   0.4,
+   0.6
+  ],
+  "brackets": [
+   0,
+   1
+  ],
+  "styles": [
+   "lanxi",
+   "song",
+   "north_folk"
+  ]
+ },
+ "zhangfang": {
+  "label": "渡口账房",
+  "group": "商业",
+  "cls": "yuwu",
+  "official": false,
+  "bays": [
+   1,
+   2
+  ],
+  "bay_w": [
+   3.2,
+   3.8
+  ],
+  "jia": [
+   2,
+   4
+  ],
+  "jia_len": [
+   1.1,
+   1.3
+  ],
+  "col_h": [
+   2.8,
+   3.1
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan"
+  ],
+  "front": "doors_center",
+  "back": "windows",
+  "sides": "windows",
+  "porch": 0.0,
+  "sign": 1.0,
+  "platform_h": [
+   0.3,
+   0.5
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi"
+  ],
+  "note": "小说第一回：青瓦木屋、坐北朝南、门前窄檐、旧木匾"
+ },
+ "yingwu": {
+  "label": "营屋（营房）",
+  "group": "公用",
+  "cls": "yuwu",
+  "official": true,
+  "bays": [
+   5,
+   11
+  ],
+  "bay_w": [
+   3.0,
+   3.4
+  ],
+  "jia": [
+   4,
+   4
+  ],
+  "jia_len": [
+   1.15,
+   1.35
+  ],
+  "col_h": [
+   2.8,
+   3.2
+  ],
+  "floors": [
+   1,
+   1
+  ],
+  "roof": [
+   "xuanshan",
+   "yingshan"
+  ],
+  "front": "door_each",
+  "back": "wall",
+  "sides": "wall",
+  "porch": 0.0,
+  "platform_h": [
+   0.2,
+   0.4
+  ],
+  "brackets": [
+   0,
+   0
+  ],
+  "styles": [
+   "lanxi",
+   "song",
+   "north_folk"
+  ],
+  "wall_options": [
+   "earth_rammed",
+   "adobe",
+   "brick_grey_old",
+   "plaster_old"
+  ],
+  "note": "卷十九 营屋功限: 栿项柱、两椽栿、四椽下檐柱, 以五寸材为祖; 卷十三 营房屋两椽脊高三层"
+ }
+}

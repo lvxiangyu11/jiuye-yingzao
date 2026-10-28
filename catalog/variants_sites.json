@@ -1,0 +1,14 @@
+[
+ ["taiji","song",1,{"kind":"diezhe","tiers":2,"steps":"two","balustrade":"chong","yuetai":true,"slope":0.0},"宋 叠涩二层台 月台 重台钩阑"],
+ ["taiji","lanxi",2,{"kind":"rubble","slope":1.8,"balustrade":"none","steps":"tadao"},"乱石台 坡地挡土"],
+ ["taiji","ming",3,{"kind":"xumi","balustrade":"dan","steps":"ruyi"},"须弥座 柱础网"],
+ ["tan","song",1,{"shape":"square","tiers":3},"方坛三层 四出陛"],
+ ["tan","ming",2,{"shape":"round","tiers":3,"balustrade":"dan"},"圆坛三层"],
+ ["retaining","lanxi",1,{"terraces":3,"tier_h":1.8,"stair":true},"梯台三级 毛石"],
+ ["retaining","chuan",2,{"terraces":2,"material":"wall_slate_dry"},"片石干砌两级"],
+ ["linshui","lanxi",1,{"steps":"both","decay":0.0},"临水基 马头 两摆手"],
+ ["linshui","lanxi",3,{"steps":"side","decay":0.5,"material":"ashlar_moss"},"旧石岸 局部坍落"],
+ ["ruins","lanxi",1,{"cause":"flood","decay":0.75},"水毁房基"],
+ ["ruins","song",2,{"cause":"fire","decay":0.6},"火毁残基"],
+ ["pier_ruin","lanxi",1,{"decay":0.7},"旧码头残桩"]
+]

@@ -1,0 +1,1291 @@
+{
+ "_doc": "Shared materials. base = CC0 texture set in textures/pbr; color = target mean sRGB albedo; roughness = [min,max] after rescale; scale = metres per texture repeat (UVs are in metres). tools/bake_textures.py writes textures/derived/<key>_Color.jpg and _Roughness.jpg.",
+ "wood": {
+  "base": "Wood026",
+  "color": [
+   0.55,
+   0.43,
+   0.31
+  ],
+  "roughness": [
+   0.78,
+   0.9
+  ],
+  "scale": 1.2,
+  "normal": 0.6,
+  "label": "原木",
+  "group": "other"
+ },
+ "wood_dark": {
+  "base": "Wood026",
+  "color": [
+   0.24,
+   0.2,
+   0.17
+  ],
+  "roughness": [
+   0.84,
+   0.94
+  ],
+  "scale": 1.2,
+  "normal": 0.6,
+  "label": "旧木/深色木",
+  "group": "other"
+ },
+ "wood_light": {
+  "base": "Wood026",
+  "color": [
+   0.74,
+   0.62,
+   0.46
+  ],
+  "roughness": [
+   0.76,
+   0.88
+  ],
+  "scale": 1.2,
+  "normal": 0.55,
+  "label": "新木/浅木",
+  "group": "other"
+ },
+ "ochre": {
+  "base": "Wood026",
+  "color": [
+   0.52,
+   0.22,
+   0.13
+  ],
+  "roughness": [
+   0.8,
+   0.92
+  ],
+  "scale": 1.2,
+  "normal": 0.45,
+  "label": "土朱刷饰（宋 丹粉刷饰）",
+  "group": "other"
+ },
+ "lacquer_red": {
+  "base": "Wood026",
+  "color": [
+   0.55,
+   0.12,
+   0.08
+  ],
+  "roughness": [
+   0.55,
+   0.72
+  ],
+  "scale": 1.2,
+  "normal": 0.35,
+  "label": "朱漆",
+  "group": "other"
+ },
+ "lacquer_black": {
+  "base": "Wood026",
+  "color": [
+   0.07,
+   0.065,
+   0.06
+  ],
+  "roughness": [
+   0.5,
+   0.7
+  ],
+  "scale": 1.2,
+  "normal": 0.35,
+  "label": "黑漆",
+  "group": "other"
+ },
+ "planks": {
+  "base": "Planks023A",
+  "color": [
+   0.42,
+   0.33,
+   0.25
+  ],
+  "roughness": [
+   0.8,
+   0.92
+  ],
+  "scale": 2.0,
+  "normal": 0.7,
+  "label": "木板墙",
+  "group": "wall"
+ },
+ "bamboo": {
+  "base": "Bamboo001A",
+  "color": [
+   0.62,
+   0.55,
+   0.36
+  ],
+  "roughness": [
+   0.6,
+   0.8
+  ],
+  "scale": 1.5,
+  "normal": 0.6,
+  "label": "竹",
+  "group": "wall"
+ },
+ "plaster_white": {
+  "base": "Plaster003",
+  "color": [
+   0.86,
+   0.85,
+   0.8
+  ],
+  "roughness": [
+   0.9,
+   0.98
+  ],
+  "scale": 1.8,
+  "normal": 0.6,
+  "label": "白灰墙",
+  "group": "wall"
+ },
+ "plaster_warm": {
+  "base": "Plaster003",
+  "color": [
+   0.8,
+   0.74,
+   0.62
+  ],
+  "roughness": [
+   0.9,
+   0.98
+  ],
+  "scale": 1.8,
+  "normal": 0.6,
+  "label": "黄泥抹灰",
+  "group": "wall"
+ },
+ "earth_rammed": {
+  "base": "Clay005",
+  "color": [
+   0.6,
+   0.48,
+   0.34
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 2.5,
+  "normal": 0.9,
+  "label": "夯土",
+  "group": "wall"
+ },
+ "adobe": {
+  "base": "Clay005",
+  "color": [
+   0.55,
+   0.43,
+   0.31
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 1.6,
+  "normal": 1.0,
+  "label": "土坯",
+  "group": "wall"
+ },
+ "brick_grey": {
+  "base": "Bricks058",
+  "color": [
+   0.42,
+   0.42,
+   0.4
+  ],
+  "roughness": [
+   0.84,
+   0.95
+  ],
+  "scale": 1.2,
+  "normal": 0.8,
+  "label": "青砖",
+  "group": "wall"
+ },
+ "brick_red": {
+  "base": "Bricks006",
+  "color": [
+   0.55,
+   0.28,
+   0.2
+  ],
+  "roughness": [
+   0.82,
+   0.94
+  ],
+  "scale": 1.2,
+  "normal": 0.8,
+  "label": "红砖",
+  "group": "wall"
+ },
+ "stone": {
+  "base": "Rock030",
+  "color": [
+   0.46,
+   0.45,
+   0.42
+  ],
+  "roughness": [
+   0.8,
+   0.94
+  ],
+  "scale": 2.0,
+  "normal": 0.9,
+  "label": "毛石/青石",
+  "group": "wall"
+ },
+ "stone_light": {
+  "base": "Rock030",
+  "color": [
+   0.66,
+   0.64,
+   0.6
+  ],
+  "roughness": [
+   0.74,
+   0.9
+  ],
+  "scale": 2.0,
+  "normal": 0.7,
+  "label": "白石/条石",
+  "group": "wall"
+ },
+ "stone_red": {
+  "base": "Rock030",
+  "color": [
+   0.55,
+   0.38,
+   0.3
+  ],
+  "roughness": [
+   0.78,
+   0.92
+  ],
+  "scale": 2.0,
+  "normal": 0.8,
+  "label": "红砂岩",
+  "group": "wall"
+ },
+ "paving": {
+  "base": "PavingStones131",
+  "color": [
+   0.47,
+   0.46,
+   0.43
+  ],
+  "roughness": [
+   0.78,
+   0.92
+  ],
+  "scale": 3.0,
+  "normal": 0.8,
+  "label": "铺地石",
+  "group": "other"
+ },
+ "tile_grey": {
+  "base": "Plaster003",
+  "color": [
+   0.19,
+   0.205,
+   0.21
+  ],
+  "roughness": [
+   0.8,
+   0.92
+  ],
+  "scale": 3.0,
+  "normal": 0.3,
+  "label": "青灰瓦",
+  "group": "roof"
+ },
+ "tile_dark": {
+  "base": "Plaster003",
+  "color": [
+   0.12,
+   0.13,
+   0.135
+  ],
+  "roughness": [
+   0.82,
+   0.93
+  ],
+  "scale": 3.0,
+  "normal": 0.3,
+  "label": "黑瓦/脊",
+  "group": "roof"
+ },
+ "tile_red": {
+  "base": "Plaster003",
+  "color": [
+   0.5,
+   0.22,
+   0.12
+  ],
+  "roughness": [
+   0.8,
+   0.92
+  ],
+  "scale": 3.0,
+  "normal": 0.3,
+  "label": "陶红瓦",
+  "group": "roof"
+ },
+ "glaze_green": {
+  "base": "Plaster003",
+  "color": [
+   0.13,
+   0.36,
+   0.25
+  ],
+  "roughness": [
+   0.3,
+   0.45
+  ],
+  "scale": 3.0,
+  "normal": 0.2,
+  "label": "绿琉璃（剪边/庙宇）",
+  "group": "roof"
+ },
+ "glaze_blue": {
+  "base": "Plaster003",
+  "color": [
+   0.12,
+   0.22,
+   0.42
+  ],
+  "roughness": [
+   0.3,
+   0.45
+  ],
+  "scale": 3.0,
+  "normal": 0.2,
+  "label": "蓝琉璃",
+  "group": "roof"
+ },
+ "thatch": {
+  "base": "ThatchedRoof001A",
+  "color": [
+   0.48,
+   0.4,
+   0.27
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 2.0,
+  "normal": 1.0,
+  "label": "茅草",
+  "group": "roof"
+ },
+ "slate": {
+  "base": "Rock030",
+  "color": [
+   0.3,
+   0.31,
+   0.32
+  ],
+  "roughness": [
+   0.7,
+   0.88
+  ],
+  "scale": 1.0,
+  "normal": 0.9,
+  "label": "石板瓦",
+  "group": "roof"
+ },
+ "paper": {
+  "base": "Fabric036",
+  "color": [
+   0.88,
+   0.84,
+   0.72
+  ],
+  "roughness": [
+   0.85,
+   0.95
+  ],
+  "scale": 0.8,
+  "normal": 0.2,
+  "label": "窗纸",
+  "group": "other"
+ },
+ "cloth_blue": {
+  "base": "Fabric036",
+  "color": [
+   0.16,
+   0.24,
+   0.4
+  ],
+  "roughness": [
+   0.85,
+   0.95
+  ],
+  "scale": 0.8,
+  "normal": 0.4,
+  "label": "蓝布招幌",
+  "group": "other"
+ },
+ "cloth_red": {
+  "base": "Fabric036",
+  "color": [
+   0.58,
+   0.14,
+   0.1
+  ],
+  "roughness": [
+   0.85,
+   0.95
+  ],
+  "scale": 0.8,
+  "normal": 0.4,
+  "label": "红布/灯笼",
+  "group": "other"
+ },
+ "bronze": {
+  "base": "Rock030",
+  "color": [
+   0.32,
+   0.26,
+   0.16
+  ],
+  "roughness": [
+   0.4,
+   0.6
+  ],
+  "scale": 1.0,
+  "normal": 0.3,
+  "metallic": 0.6,
+  "label": "铜/塔刹",
+  "group": "other"
+ },
+ "iron": {
+  "base": "Rock030",
+  "color": [
+   0.16,
+   0.16,
+   0.17
+  ],
+  "roughness": [
+   0.5,
+   0.7
+  ],
+  "scale": 1.0,
+  "normal": 0.3,
+  "metallic": 0.5,
+  "label": "铁件",
+  "group": "other"
+ },
+ "ground_dirt": {
+  "base": "Ground054",
+  "color": [
+   0.42,
+   0.35,
+   0.26
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 3.0,
+  "normal": 0.8,
+  "label": "土地面",
+  "group": "other"
+ },
+ "gravel": {
+  "base": "Gravel021",
+  "color": [
+   0.48,
+   0.46,
+   0.42
+  ],
+  "roughness": [
+   0.85,
+   0.96
+  ],
+  "scale": 2.0,
+  "normal": 0.8,
+  "label": "碎石",
+  "group": "other"
+ },
+ "concrete": {
+  "base": "Concrete034",
+  "color": [
+   0.6,
+   0.59,
+   0.56
+  ],
+  "roughness": [
+   0.82,
+   0.95
+  ],
+  "scale": 3.0,
+  "normal": 0.6,
+  "label": "水泥（现代）",
+  "group": "other"
+ },
+ "paint_cream": {
+  "base": "PaintedPlaster017",
+  "color": [
+   0.82,
+   0.78,
+   0.68
+  ],
+  "roughness": [
+   0.85,
+   0.95
+  ],
+  "scale": 3.0,
+  "normal": 0.5,
+  "label": "涂料墙（现代）",
+  "group": "other"
+ },
+ "paint_tile": {
+  "base": "PaintedPlaster017",
+  "color": [
+   0.84,
+   0.84,
+   0.82
+  ],
+  "roughness": [
+   0.4,
+   0.6
+  ],
+  "scale": 1.0,
+  "normal": 0.3,
+  "label": "白瓷砖面（现代）",
+  "group": "other"
+ },
+ "glass": {
+  "base": null,
+  "color": [
+   0.2,
+   0.26,
+   0.3
+  ],
+  "roughness": [
+   0.08,
+   0.12
+  ],
+  "metallic": 0.0,
+  "label": "玻璃（现代）",
+  "group": "other"
+ },
+ "metal_grey": {
+  "base": null,
+  "color": [
+   0.45,
+   0.46,
+   0.47
+  ],
+  "roughness": [
+   0.35,
+   0.45
+  ],
+  "metallic": 0.8,
+  "label": "金属（现代）",
+  "group": "other"
+ },
+ "wall_slate_dry": {
+  "base": "Rocks011",
+  "mode": "keep",
+  "color": [
+   0.5,
+   0.49,
+   0.46
+  ],
+  "roughness": [
+   0.8,
+   0.95
+  ],
+  "scale": 2.2,
+  "normal": 1.0,
+  "label": "片石干砌墙",
+  "group": "wall"
+ },
+ "wall_pebble": {
+  "base": "Rocks022",
+  "mode": "keep",
+  "color": [
+   0.52,
+   0.5,
+   0.46
+  ],
+  "roughness": [
+   0.75,
+   0.92
+  ],
+  "scale": 1.6,
+  "normal": 1.0,
+  "label": "卵石墙（河滩）",
+  "group": "wall"
+ },
+ "wall_rubble": {
+  "base": "Rocks007",
+  "mode": "keep",
+  "color": [
+   0.55,
+   0.53,
+   0.49
+  ],
+  "roughness": [
+   0.8,
+   0.95
+  ],
+  "scale": 2.4,
+  "normal": 1.0,
+  "label": "毛石墙/虎皮石",
+  "group": "wall"
+ },
+ "brick_grey_old": {
+  "base": "Bricks061",
+  "mode": "keep",
+  "color": [
+   0.4,
+   0.41,
+   0.4
+  ],
+  "roughness": [
+   0.84,
+   0.96
+  ],
+  "scale": 1.4,
+  "normal": 0.9,
+  "label": "旧青砖",
+  "group": "wall"
+ },
+ "brick_grey_moss": {
+  "base": "Bricks061",
+  "mode": "keep",
+  "color": [
+   0.38,
+   0.39,
+   0.37
+  ],
+  "roughness": [
+   0.84,
+   0.96
+  ],
+  "scale": 1.4,
+  "normal": 0.9,
+  "overlay": {
+   "base": "Moss002",
+   "amount": 0.28,
+   "color": [
+    0.24,
+    0.3,
+    0.17
+   ],
+   "scale": 30
+  },
+  "label": "苔痕青砖",
+  "group": "wall"
+ },
+ "brick_red_old": {
+  "base": "Bricks094",
+  "mode": "keep",
+  "color": [
+   0.5,
+   0.3,
+   0.23
+  ],
+  "roughness": [
+   0.82,
+   0.95
+  ],
+  "scale": 1.4,
+  "normal": 0.9,
+  "label": "旧红砖",
+  "group": "wall"
+ },
+ "ashlar_grey": {
+  "base": "Bricks066",
+  "mode": "keep",
+  "color": [
+   0.58,
+   0.57,
+   0.54
+  ],
+  "roughness": [
+   0.78,
+   0.92
+  ],
+  "scale": 3.0,
+  "normal": 0.8,
+  "label": "条石墙",
+  "group": "wall"
+ },
+ "ashlar_moss": {
+  "base": "Bricks108A",
+  "mode": "keep",
+  "color": [
+   0.5,
+   0.49,
+   0.43
+  ],
+  "roughness": [
+   0.8,
+   0.94
+  ],
+  "scale": 3.0,
+  "normal": 0.9,
+  "label": "苔痕条石（旧城墙/台基）",
+  "group": "wall"
+ },
+ "stone_block": {
+  "base": "Bricks113A",
+  "mode": "keep",
+  "color": [
+   0.56,
+   0.54,
+   0.5
+  ],
+  "roughness": [
+   0.8,
+   0.94
+  ],
+  "scale": 2.6,
+  "normal": 0.9,
+  "label": "粗石块墙",
+  "group": "wall"
+ },
+ "plaster_old": {
+  "base": "Plaster007",
+  "mode": "keep",
+  "color": [
+   0.78,
+   0.77,
+   0.72
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 2.2,
+  "normal": 0.6,
+  "label": "旧粉墙（水渍）",
+  "group": "wall"
+ },
+ "plaster_lime": {
+  "base": "Plaster001",
+  "color": [
+   0.88,
+   0.87,
+   0.83
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 2.0,
+  "normal": 0.5,
+  "label": "石灰抹面",
+  "group": "wall"
+ },
+ "plaster_stained": {
+  "base": "Plaster003",
+  "color": [
+   0.84,
+   0.82,
+   0.76
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 1.8,
+  "normal": 0.6,
+  "overlay": {
+   "base": "Plaster007",
+   "amount": 0.2,
+   "color": [
+    0.62,
+    0.59,
+    0.52
+   ],
+   "scale": 60
+  },
+  "label": "斑驳白墙",
+  "group": "wall"
+ },
+ "plaster_red": {
+  "base": "Plaster001",
+  "color": [
+   0.55,
+   0.2,
+   0.14
+  ],
+  "roughness": [
+   0.85,
+   0.96
+  ],
+  "scale": 2.0,
+  "normal": 0.5,
+  "label": "红墙（庙宇）",
+  "group": "wall"
+ },
+ "plaster_ochre": {
+  "base": "Plaster001",
+  "color": [
+   0.74,
+   0.58,
+   0.34
+  ],
+  "roughness": [
+   0.86,
+   0.97
+  ],
+  "scale": 2.0,
+  "normal": 0.5,
+  "label": "土黄墙",
+  "group": "wall"
+ },
+ "straw_clay": {
+  "base": "Clay006",
+  "mode": "keep",
+  "color": [
+   0.62,
+   0.51,
+   0.38
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 1.8,
+  "normal": 0.9,
+  "label": "草泥墙（带草筋）",
+  "group": "wall"
+ },
+ "mud_smooth": {
+  "base": "Clay009",
+  "mode": "keep",
+  "color": [
+   0.6,
+   0.48,
+   0.35
+  ],
+  "roughness": [
+   0.86,
+   0.97
+  ],
+  "scale": 2.0,
+  "normal": 0.7,
+  "label": "细泥抹墙",
+  "group": "wall"
+ },
+ "earth_red": {
+  "base": "Clay005",
+  "color": [
+   0.58,
+   0.36,
+   0.24
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 2.5,
+  "normal": 0.9,
+  "label": "红土夯墙（西南/客家）",
+  "group": "wall"
+ },
+ "earth_loess": {
+  "base": "Clay005",
+  "color": [
+   0.66,
+   0.57,
+   0.43
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 2.5,
+  "normal": 0.9,
+  "label": "黄土夯墙（西北）",
+  "group": "wall"
+ },
+ "planks_old": {
+  "base": "Planks037A",
+  "mode": "keep",
+  "color": [
+   0.3,
+   0.24,
+   0.19
+  ],
+  "roughness": [
+   0.82,
+   0.94
+  ],
+  "scale": 2.4,
+  "normal": 0.8,
+  "label": "旧木板墙",
+  "group": "wall"
+ },
+ "boards_weathered": {
+  "base": "WoodSiding013",
+  "mode": "keep",
+  "color": [
+   0.4,
+   0.36,
+   0.3
+  ],
+  "roughness": [
+   0.84,
+   0.95
+  ],
+  "scale": 2.4,
+  "normal": 0.8,
+  "label": "风化木板",
+  "group": "wall"
+ },
+ "wattle": {
+  "base": "Wicker013",
+  "mode": "keep",
+  "color": [
+   0.58,
+   0.48,
+   0.32
+  ],
+  "roughness": [
+   0.8,
+   0.94
+  ],
+  "scale": 1.0,
+  "normal": 0.9,
+  "label": "竹编/篱笆",
+  "group": "wall"
+ },
+ "tile_grey_old": {
+  "base": "Plaster003",
+  "color": [
+   0.2,
+   0.21,
+   0.2
+  ],
+  "roughness": [
+   0.82,
+   0.94
+  ],
+  "scale": 3.0,
+  "normal": 0.35,
+  "overlay": {
+   "base": "Moss002",
+   "amount": 0.28,
+   "color": [
+    0.24,
+    0.3,
+    0.17
+   ],
+   "scale": 30
+  },
+  "label": "旧青瓦（苔痕）",
+  "group": "roof"
+ },
+ "tile_moss": {
+  "base": "Plaster003",
+  "color": [
+   0.18,
+   0.19,
+   0.18
+  ],
+  "roughness": [
+   0.84,
+   0.95
+  ],
+  "scale": 3.0,
+  "normal": 0.4,
+  "overlay": {
+   "base": "Moss002",
+   "amount": 0.5,
+   "color": [
+    0.24,
+    0.3,
+    0.17
+   ],
+   "scale": 30
+  },
+  "label": "青苔瓦（山村/背阴）",
+  "group": "roof"
+ },
+ "tile_black": {
+  "base": "Plaster003",
+  "color": [
+   0.085,
+   0.09,
+   0.095
+  ],
+  "roughness": [
+   0.7,
+   0.85
+  ],
+  "scale": 3.0,
+  "normal": 0.3,
+  "label": "乌瓦",
+  "group": "roof"
+ },
+ "tile_brown": {
+  "base": "Plaster003",
+  "color": [
+   0.36,
+   0.26,
+   0.2
+  ],
+  "roughness": [
+   0.8,
+   0.92
+  ],
+  "scale": 3.0,
+  "normal": 0.3,
+  "label": "褐陶瓦",
+  "group": "roof"
+ },
+ "tile_red_old": {
+  "base": "Plaster003",
+  "color": [
+   0.44,
+   0.22,
+   0.15
+  ],
+  "roughness": [
+   0.82,
+   0.93
+  ],
+  "scale": 3.0,
+  "normal": 0.3,
+  "overlay": {
+   "base": "Moss002",
+   "amount": 0.22,
+   "color": [
+    0.24,
+    0.3,
+    0.17
+   ],
+   "scale": 30
+  },
+  "label": "旧红瓦",
+  "group": "roof"
+ },
+ "glaze_yellow": {
+  "base": "Plaster003",
+  "color": [
+   0.62,
+   0.45,
+   0.12
+  ],
+  "roughness": [
+   0.3,
+   0.45
+  ],
+  "scale": 3.0,
+  "normal": 0.2,
+  "label": "黄琉璃（帝制色，慎用）",
+  "group": "roof"
+ },
+ "glaze_black": {
+  "base": "Plaster003",
+  "color": [
+   0.06,
+   0.07,
+   0.08
+  ],
+  "roughness": [
+   0.25,
+   0.4
+  ],
+  "scale": 3.0,
+  "normal": 0.2,
+  "label": "黑琉璃",
+  "group": "roof"
+ },
+ "glaze_turquoise": {
+  "base": "Plaster003",
+  "color": [
+   0.12,
+   0.4,
+   0.4
+  ],
+  "roughness": [
+   0.28,
+   0.42
+  ],
+  "scale": 3.0,
+  "normal": 0.2,
+  "label": "孔雀蓝琉璃",
+  "group": "roof"
+ },
+ "slate_scale": {
+  "base": "RoofingTiles001",
+  "mode": "keep",
+  "color": [
+   0.36,
+   0.37,
+   0.38
+  ],
+  "roughness": [
+   0.7,
+   0.88
+  ],
+  "scale": 1.6,
+  "normal": 1.0,
+  "label": "鱼鳞石板瓦",
+  "group": "roof"
+ },
+ "slate_shingle": {
+  "base": "RoofingTiles003",
+  "mode": "keep",
+  "color": [
+   0.34,
+   0.35,
+   0.36
+  ],
+  "roughness": [
+   0.72,
+   0.9
+  ],
+  "scale": 1.6,
+  "normal": 1.0,
+  "label": "片石瓦",
+  "group": "roof"
+ },
+ "clay_tile_pattern": {
+  "base": "RoofingTiles006",
+  "mode": "keep",
+  "color": [
+   0.48,
+   0.25,
+   0.16
+  ],
+  "roughness": [
+   0.72,
+   0.88
+  ],
+  "scale": 1.6,
+  "normal": 1.0,
+  "label": "陶瓦面（远景/无几何瓦垄时）",
+  "group": "roof"
+ },
+ "clay_tile_old": {
+  "base": "RoofingTiles007",
+  "mode": "keep",
+  "color": [
+   0.42,
+   0.25,
+   0.18
+  ],
+  "roughness": [
+   0.74,
+   0.9
+  ],
+  "scale": 1.6,
+  "normal": 1.0,
+  "label": "旧陶瓦面（远景）",
+  "group": "roof"
+ },
+ "thatch_old": {
+  "base": "ThatchedRoof002A",
+  "mode": "keep",
+  "color": [
+   0.4,
+   0.36,
+   0.28
+  ],
+  "roughness": [
+   0.88,
+   0.98
+  ],
+  "scale": 2.2,
+  "normal": 1.0,
+  "label": "旧茅草（发灰）",
+  "group": "roof"
+ },
+ "bark_roof": {
+  "base": "Bark007",
+  "mode": "keep",
+  "color": [
+   0.36,
+   0.27,
+   0.19
+  ],
+  "roughness": [
+   0.86,
+   0.97
+  ],
+  "scale": 1.6,
+  "normal": 1.0,
+  "label": "树皮屋面（山区）",
+  "group": "roof"
+ },
+ "bamboo_roof": {
+  "base": "Bamboo001A",
+  "color": [
+   0.52,
+   0.47,
+   0.3
+  ],
+  "roughness": [
+   0.65,
+   0.82
+  ],
+  "scale": 1.2,
+  "normal": 0.8,
+  "label": "剖竹瓦（西南）",
+  "group": "roof"
+ },
+ "sod_roof": {
+  "base": "Clay006",
+  "mode": "keep",
+  "color": [
+   0.5,
+   0.42,
+   0.31
+  ],
+  "roughness": [
+   0.9,
+   0.99
+  ],
+  "scale": 3.0,
+  "normal": 0.9,
+  "label": "草泥平顶",
+  "group": "roof"
+ },
+ "stone_carved": {
+  "base": "Concrete034",
+  "color": [
+   0.5,
+   0.49,
+   0.46
+  ],
+  "roughness": [
+   0.72,
+   0.88
+  ],
+  "scale": 1.6,
+  "normal": 0.5,
+  "label": "细凿石（牌坊/碑/栏杆）",
+  "group": "wall"
+ },
+ "stone_carved_dark": {
+  "base": "Concrete034",
+  "color": [
+   0.42,
+   0.42,
+   0.41
+  ],
+  "roughness": [
+   0.7,
+   0.86
+  ],
+  "scale": 1.6,
+  "normal": 0.5,
+  "label": "青石细凿",
+  "group": "wall"
+ }
+}

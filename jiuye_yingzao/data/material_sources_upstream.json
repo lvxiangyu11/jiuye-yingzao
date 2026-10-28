@@ -1,0 +1,456 @@
+{
+  "provider": "ambientCG",
+  "license": "CC0-1.0",
+  "assets": [
+    {
+      "asset": "Wood026",
+      "source": "https://ambientcg.com/view?id=Wood026",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "66ce02780f03e68068fb8d1bc7d5797819073d0218c6f83d7ecf310991b30407",
+      "source_dimensions_cm": [
+        0,
+        0
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Wood026_Color.jpg",
+          "sha256": "fd0ddbe1eb41cbfc91f8ffa1682abf1121e6deae1df0099fd1d1168e9cfca977",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Wood026_NormalGL.jpg",
+          "sha256": "b4ea0cdaf49b55aa3b5daeaee12e6cd2b1d2c5c9b4aff995bbcb1cbfdfe70a33",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Wood026_Roughness.jpg",
+          "sha256": "6496af40ba6c0ba74887781d8e1cbf0e2c53da1510693fe86f446eca4e330634",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Wood026_Displacement.jpg",
+          "sha256": "a658051a103f089cc279dea024c959a9e34198408807d73f93706c0f3f8572c6",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "Plaster003",
+      "source": "https://ambientcg.com/view?id=Plaster003",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "3a47249643273c82c53d8d31c9caef43aec940a4c926cf0c74858a8e96631bf1",
+      "source_dimensions_cm": [
+        0,
+        0
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Plaster003_Color.jpg",
+          "sha256": "b26e2df14b6a6090f1c6c820a0373ebc04ae483c215082bf6166318f6786ee6d",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Plaster003_NormalGL.jpg",
+          "sha256": "c91c1243c061b2b6fd86611aa5954ea37d42e1ae660609bc1332a1b05d7b4947",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Plaster003_Roughness.jpg",
+          "sha256": "cebb5bf3197d47add9d612e59e20f517b0e1a314e22159fd3cf1b4266833dc57",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Plaster003_Displacement.jpg",
+          "sha256": "bad3fcf042399ca72bb33f8645af68d74769305aaccb7bceb7ed1872895246a6",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "Bricks058",
+      "source": "https://ambientcg.com/view?id=Bricks058",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "82f09f3aa41a58ddf2ddc2ddc233bcf9119fe7f9c6a7475f4cea376782883a14",
+      "source_dimensions_cm": [
+        105,
+        105
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Bricks058_Color.jpg",
+          "sha256": "08ddb70382580d75c96aae3168a1e1c096b270758fe176bc716cba1319a60aa4",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Bricks058_NormalGL.jpg",
+          "sha256": "d5251168546f3cf960ecfb47ecb8e1b9af06dd526f3f259097182b535459669f",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Bricks058_Roughness.jpg",
+          "sha256": "0a80b56955dd15356874fc99fe4469d589873c81daa1ae2b30445e8e5ad39d87",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Bricks058_Displacement.jpg",
+          "sha256": "a36065e0887c7e28f541251251207817b94f26e04c5222b001a6a7a483bec6a0",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "Bricks006",
+      "source": "https://ambientcg.com/view?id=Bricks006",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "9e7967e48b67479231d711b2df6b51135d81732d13038f98ec2ed5b37e0e5008",
+      "source_dimensions_cm": [
+        0,
+        0
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Bricks006_Color.jpg",
+          "sha256": "8341a2685c02829651187f0d57cda7ab0f976a39f6ba16fe29afeadcd81cc6d8",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Bricks006_NormalGL.jpg",
+          "sha256": "728ceab5c02d9b2a1da8362746f55392bc9d3740d8104390d6814ecb1cd2980d",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Bricks006_Roughness.jpg",
+          "sha256": "7509b9e8e5d2143b5bda5fddb7585894811cb28c5292b70ef4d7daa23549a824",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Bricks006_Displacement.jpg",
+          "sha256": "efe49e34f9593e255b33c1fda8b49d7211780beab7fd0ab78b4938db2571f543",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "Rock030",
+      "source": "https://ambientcg.com/view?id=Rock030",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "2fd0bc2d214e2487c19062ed0798a85dd135b41cfc12bbaed42d5acae238f989",
+      "source_dimensions_cm": [
+        0,
+        0
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Rock030_Color.jpg",
+          "sha256": "a866a6747ff2005a6b559a42e76abbde22b978710589047ec0dd9f47fed6a435",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Rock030_NormalGL.jpg",
+          "sha256": "5e0698feda6fb6c7fa937122248f37be33f01d45aff3192298c28f8edea57636",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Rock030_Roughness.jpg",
+          "sha256": "f938120784fdd14a928af505bbf2e472ab5b3db252d3f1eb9c82e5008d14d9ee",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Rock030_Displacement.jpg",
+          "sha256": "8a0f27eb58016f4af79e0881c19896289de9d10b74466a02f39ec65b5b54b21e",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "Fabric036",
+      "source": "https://ambientcg.com/view?id=Fabric036",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "a06c291bcbf46fc0167fac74345dfe6af5e3ed3d3595644fa1067d191b5595ec",
+      "source_dimensions_cm": [
+        0,
+        0
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Fabric036_Color.jpg",
+          "sha256": "85b117353e564e18e4383829e34aba19b2b620af2c0dacd109ad1e517ab72e9d",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Fabric036_NormalGL.jpg",
+          "sha256": "67a77af1a611575a2136aa202f55ce286a277758e372e28f835ce0677776ee36",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Fabric036_Roughness.jpg",
+          "sha256": "b66d81591a4261564aeaae7c1deccb683382f31dfc336a225f47cfb8f9b8eb7c",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Fabric036_Displacement.jpg",
+          "sha256": "85f0c5e1c9e264fc6241cf872a2e41597b5127a7bfc526190f95031cad5dec68",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "Ground054",
+      "source": "https://ambientcg.com/view?id=Ground054",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "b325ec2f167dce95a0fabc61a2104641288cf20915419578c3efdb46200c563e",
+      "source_dimensions_cm": [
+        350,
+        350
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Ground054_Color.jpg",
+          "sha256": "cf644151e65330635df5693275e9b60c02284ca2fa5d4e1f26fe3a753cfa8b74",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Ground054_NormalGL.jpg",
+          "sha256": "ff4156042e0266103e145506033c7765d1b5950c54c69c73325c27c8756b092a",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Ground054_Roughness.jpg",
+          "sha256": "7eff85ac4a8d40319508887f47c2a932709e3cb6e4f7065bab5908278c62715b",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Ground054_Displacement.jpg",
+          "sha256": "a481cb497eb3ca799b96f4792e1eeccea4a5da47f2bf9af32b83cacf8fd3179f",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "Ground037",
+      "source": "https://ambientcg.com/view?id=Ground037",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "4e69db2b7251b1736fa70fe6fe4ab80d64bd220117dd5dd4c7caaead51c2574e",
+      "source_dimensions_cm": [
+        210,
+        210
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Ground037_Color.jpg",
+          "sha256": "91ddbbf110043326b2597e967c556bc4cb84bc02adbf122fb3bb58cb38aa47ce",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Ground037_NormalGL.jpg",
+          "sha256": "8254c3361b533f4ed7d143e6a3cfa7de37ff6c624349213d8e232e92bd6354f0",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Ground037_Roughness.jpg",
+          "sha256": "aac80068f3086961849838488b3581f14b45f6d069aae7bab681a0405e2b52ed",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Ground037_Displacement.jpg",
+          "sha256": "7b5fbe6ad75af46a2ed86cef91effa6931b1f2d21fe71e8c534c2b5fc2ade1d4",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "PavingStones131",
+      "source": "https://ambientcg.com/view?id=PavingStones131",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "4b48575f51af3f8cd8ba20021f8a471f22435749782e553493967425e498fa4d",
+      "source_dimensions_cm": [
+        0,
+        0
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/PavingStones131_Color.jpg",
+          "sha256": "1a1a26996de92e431af86df3eedb73d74db20a990e80857378cf1058a3a9a83b",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/PavingStones131_NormalGL.jpg",
+          "sha256": "0ef7e3212c8afcad196572bc4fa2395b544b8010557e385bc633b7a68e51adf7",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/PavingStones131_Roughness.jpg",
+          "sha256": "df2e71d6d02d404cc70a8b4bb1895ee0f2a645ab46551117847477550067bd35",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/PavingStones131_Displacement.jpg",
+          "sha256": "33c5e29066fe6792ea5668962f14e3362f83817027e84f846e9fecd155a838af",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    },
+    {
+      "asset": "Gravel021",
+      "source": "https://ambientcg.com/view?id=Gravel021",
+      "license": "CC0-1.0",
+      "license_url": "https://docs.ambientcg.com/license/",
+      "archive_sha256": "5607174e964994d2a78fa89e177c78908c2e0c11de0fc6e976dfddca78dd67ea",
+      "source_dimensions_cm": [
+        125,
+        125
+      ],
+      "maps": {
+        "Color": {
+          "file": "textures/pbr/Gravel021_Color.jpg",
+          "sha256": "e5450e066ed5829b1eed09f0d0bcea610da6270c7f158d0c0ceebf6fe111dcd7",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "NormalGL": {
+          "file": "textures/pbr/Gravel021_NormalGL.jpg",
+          "sha256": "972f838b7533c6a4538073f3b2f5cc6fc27cbb62dd46cc237d76588eb4c6ae11",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Roughness": {
+          "file": "textures/pbr/Gravel021_Roughness.jpg",
+          "sha256": "073485a95393c7f511cf02fd82837746ee8962dff6dd7563924e19f7adab3e6c",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        "Displacement": {
+          "file": "textures/pbr/Gravel021_Displacement.jpg",
+          "sha256": "c8de4ff5d4bc605b4e12707b89511f54e3371f1a73bb4e4ce215022c4d8f3311",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      }
+    }
+  ]
+}

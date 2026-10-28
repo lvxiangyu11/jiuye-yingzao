@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.zip
+catalog/thumbs/
+catalog/variants/
+catalog/*.log
+catalog/close_f?.png
+catalog/close_s?.png
+catalog/close_w?.png
+catalog/test_*.png
+catalog/report_partial.json
